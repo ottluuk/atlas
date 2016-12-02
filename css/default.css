@@ -139,8 +139,6 @@ div#idx_content {
 div#frontpage_text {
     float: left;
     font-size: 16px;
-    white-space: pre-wrap;
-
 }
 
 div#frontpage_text img {
@@ -151,6 +149,7 @@ div#frontpage_text img {
 p.caption {
     font-size: 14px;
     font-style: italic;
+    text-align: center;
 }
 /*
 div#footer {
