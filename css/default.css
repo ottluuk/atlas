@@ -91,6 +91,7 @@ div#idx_content {
 
 div#frontpage_text {
     float: right;
+    font-size: 18px;
 }
 
 div#frontpage_text img {
@@ -98,6 +99,10 @@ div#frontpage_text img {
     max-width: 700px;
 }
 
+p.caption {
+    font-size: 14px;
+    font-style: italic;
+}
 /*
 div#footer {
     position: absolute;
