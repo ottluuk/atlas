@@ -89,11 +89,11 @@ div#idx_content {
 }
 
 
-div#frontpage_content {
+div#frontpage_text {
     float: right;
 }
 
-div#frontpage_content img {
+div#frontpage_text img {
     float: right;
     max-width: 700px;
 }
