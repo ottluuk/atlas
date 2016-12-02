@@ -137,8 +137,10 @@ div#idx_content {
 
 
 div#frontpage_text {
-    float: right;
+    float: left;
     font-size: 16px;
+    white-space: pre-wrap;
+
 }
 
 div#frontpage_text img {
