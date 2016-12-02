@@ -12,7 +12,7 @@ body {
 div#container {
     height: 100%;
     max-width: 960px;
-    margin: 12px 12px 12px 12px;
+    margin: 12px auto 12px auto;
 }
 
 div#header {
@@ -52,6 +52,17 @@ h2 {
     font-size: 20px;
 }
 
+em {
+    color: SteelBlue;
+    font-style: italic;
+    font-weight: bold;
+}
+
+strong {
+    color: SteelBlue;
+    font-weight: bold;
+}
+
 div.info {
     color: #555;
     font-size: 14px;
@@ -62,10 +73,18 @@ div.figure {
     float: right;
 }
 
+
 div#content {
     color: black;
-    font-size: 14px;
-    height: 80%;
+    font-size: 16px;
+    font-family: Lucida Grande, Helvetica, Verdana, Arial, sans-serif;
+    text-align: justify;
+}
+
+ol {
+    white-space: nowrap;
+    float: left;
+    line-height: 130%;
 }
 
 div#speclist {
@@ -73,7 +92,7 @@ div#speclist {
     color: DarkGreen;
     font-size: 14px;
     font-style: italic;
-    width: 20%;
+    width: 30%;
     height: 600px;
     overflow-y: auto;
 }
