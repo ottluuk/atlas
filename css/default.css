@@ -125,9 +125,10 @@ div#speclist {
     overflow-y: auto;
 }
 
-div#speclist a {
+div#speclist li a {
     color: DarkGreen;
     text-decoration: none;
+    display: block;
 }
 
 div#idx_content {
