@@ -120,6 +120,12 @@ div#speclist {
     width: 30%;
 }
 
+div#map_comments {
+    float: right;
+    width: 70%;
+}
+
+
 input#filterField {
     width: 100%; /* Full-width */
     font-size: 16px; /* Increase font-size */
