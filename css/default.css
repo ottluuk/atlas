@@ -115,6 +115,7 @@ ol {
 }
 
 div#speclist {
+    color: DarkGreen;
     float: left;
     width: 30%;
 }
@@ -122,13 +123,12 @@ div#speclist {
 input#filterField {
     width: 100%; /* Full-width */
     font-size: 16px; /* Increase font-size */
-    padding: 12px 20px 12px 40px; /* Add some padding */
-    border: 1px solid black; /* Add a grey border */
+    padding: 12px 18px 12px 20px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
     margin-bottom: 12px; /* Add some space below the input */
 }
 
 div#speclist ul {
-    color: DarkGreen;
     font-size: 14px;
     font-style: italic;
     text-align: left;
