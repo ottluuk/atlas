@@ -114,7 +114,7 @@ ol {
     line-height: 130%;
 }
 
-div#speclist {
+div#speclist ul {
     float: left;
     color: DarkGreen;
     font-size: 14px;
