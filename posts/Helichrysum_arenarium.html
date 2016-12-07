@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Eesti taimede uue levikuatlase tööversioon - Helichrysum arenarium</title>
 <link rel="stylesheet" type="text/css" href="../css/default.css" />
+<script type="text/javascript" src="https://ottluuk.github.io/atlas/js/mapdetails.js" ></script>
 </head>
 <body>
 <div id="container">        
@@ -25,36 +26,145 @@
     <div id="content">
         <h1>Helichrysum arenarium</h1>
         <div class="info">
-            Uuendatud: 2016-12-02
+            Uuendatud: 2016-12-07
         </div>
-
-        <p>Kaardile koondatud taksonid: <em>Helichrysum arenarium (L.) Moench</em></p>
-        <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
-        <div class="figure">
-        <img src="../images/Helichrysum_arenarium.png" />
-        
-        </div>
-        <p><a href="../posts/Helianthus_tuberosus.html">eelmine</a> | <a href="../posts/Helictotrichon_pratense.html">järgmine</a></p>
-        <p>Kaart põhineb <em>15</em> vaatlusel. Taksonit on leitud <em>7</em> ruudust.</p>
-        <p>Viited andmebaasikirjetele</p>
-        <ol style="list-style-type: decimal">
-        <li><a href="https://plutof.ut.ee/#/observation/view/886781">Rein Kalamees, Kersti Püssa: 2015-07-16: 20-46: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/886782">Rein Kalamees, Kersti Püssa: 2015-07-16: 20-46: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/886783">Rein Kalamees, Kersti Püssa: 2015-07-16: 20-46: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/907254">Toomas Kukk, Timo Luhamäe, Kersti Tambets, Sten Mander, Janika Sammasto: 2014-07-30: 20-45: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/911179">Toomas Kukk, Timo Luhamäe, Kersti Tambets, Sten Mander, Janika Sammasto: 2014-07-30: 21-45: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/916744">Ott Luuk, Elle Roosaluste: 2015-05-29: 18-23: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/918370">Toomas Kukk, Kersti Tambets, Timo Luhamäe, Janika Sammasto, Sten Mander: 2014-07-30: 21-45: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/918374">Toomas Kukk, Kersti Tambets, Timo Luhamäe, Janika Sammasto, Sten Mander: 2014-07-30: 21-45: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/918813">Ott Luuk: 2015-05-30: 18-23: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1030748">Kersti Püssa, Rein Kalamees: 2015-08-05: 21-45: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1031181">Kersti Püssa, Rein Kalamees: 2015-08-05: 21-46: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1043289">Maret Gerz, Ott Luuk: 2014-06-25: 16-40: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1135371">Toomas Kukk, Tiit Hallikma, Johannes Kõdar: 2016-06-14: 21-45: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1225047">Peedu Saar, Karin Kikas: 2016-08-18: 21-44: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1230148">Karin Kikas, Peedu Saar: 2016-08-18: 21-44: GPS punkt</a></li>
-        </ol>
-        
+             <p>Kaardile koondatud taksonid: <em>Helichrysum arenarium (L.) Moench</em></p>
+             <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
+             <div class="figure">
+             <img src="../images/Helichrysum_arenarium.png" />
+             
+             </div>
+             <p><a href="../posts/Helianthus_tuberosus.html" id="prevLink">eelmine</a> | <a href="../posts/Helictotrichon_pratense.html" id="nextLink">järgmine</a></p>
+             <p>Kaart põhineb <strong>15</strong> <span style="background-color:#FFFF00">vaatlusel</span>. Taime on leitud <strong>7</strong> ruudust.</p>
+             <div id="obs_table">
+             <p><label for="table_filter_input">Ruudu filter</label></p>
+             <p><input type="text" id="table_filter_input" oninput="filterTable()" placeholder="Filtreeri ruudu järgi"></p>
+             <table style="width:49%;">
+             <colgroup>
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             </colgroup>
+             <thead>
+             <tr class="header">
+             <th align="center">Ruut</th>
+             <th align="left">Vaatleja(d)</th>
+             <th align="center">Vaatlusaeg</th>
+             <th align="center">Kirje tüüp</th>
+             <th align="center">Viide andmebaasikirjele</th>
+             </tr>
+             </thead>
+             <tbody>
+             <tr class="odd">
+             <td align="center">20-46</td>
+             <td align="left">Rein Kalamees, Kersti Püssa</td>
+             <td align="center">2015-07-16</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/886781">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">20-46</td>
+             <td align="left">Rein Kalamees, Kersti Püssa</td>
+             <td align="center">2015-07-16</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/886782">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">20-46</td>
+             <td align="left">Rein Kalamees, Kersti Püssa</td>
+             <td align="center">2015-07-16</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/886783">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">20-45</td>
+             <td align="left">Toomas Kukk, Timo Luhamäe, Kersti Tambets, Sten Mander, Janika Sammasto</td>
+             <td align="center">2014-07-30</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/907254">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">21-45</td>
+             <td align="left">Toomas Kukk, Timo Luhamäe, Kersti Tambets, Sten Mander, Janika Sammasto</td>
+             <td align="center">2014-07-30</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/911179">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">18-23</td>
+             <td align="left">Ott Luuk, Elle Roosaluste</td>
+             <td align="center">2015-05-29</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/916744">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">21-45</td>
+             <td align="left">Toomas Kukk, Kersti Tambets, Timo Luhamäe, Janika Sammasto, Sten Mander</td>
+             <td align="center">2014-07-30</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/918370">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">21-45</td>
+             <td align="left">Toomas Kukk, Kersti Tambets, Timo Luhamäe, Janika Sammasto, Sten Mander</td>
+             <td align="center">2014-07-30</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/918374">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">18-23</td>
+             <td align="left">Ott Luuk</td>
+             <td align="center">2015-05-30</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/918813">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">21-45</td>
+             <td align="left">Kersti Püssa, Rein Kalamees</td>
+             <td align="center">2015-08-05</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1030748">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">21-46</td>
+             <td align="left">Kersti Püssa, Rein Kalamees</td>
+             <td align="center">2015-08-05</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1031181">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">16-40</td>
+             <td align="left">Maret Gerz, Ott Luuk</td>
+             <td align="center">2014-06-25</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1043289">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">21-45</td>
+             <td align="left">Toomas Kukk, Tiit Hallikma, Johannes Kõdar</td>
+             <td align="center">2016-06-14</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1135371">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">21-44</td>
+             <td align="left">Peedu Saar, Karin Kikas</td>
+             <td align="center">2016-08-18</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1225047">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">21-44</td>
+             <td align="left">Karin Kikas, Peedu Saar</td>
+             <td align="center">2016-08-18</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1230148">vaata PlutoFis</a></td>
+             </tr>
+             </tbody>
+             </table>
+             </div>        
     </div>
 </div>
 </body>

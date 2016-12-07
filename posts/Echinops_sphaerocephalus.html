@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Eesti taimede uue levikuatlase tööversioon - Echinops sphaerocephalus</title>
 <link rel="stylesheet" type="text/css" href="../css/default.css" />
+<script type="text/javascript" src="https://ottluuk.github.io/atlas/js/mapdetails.js" ></script>
 </head>
 <body>
 <div id="container">        
@@ -25,29 +26,89 @@
     <div id="content">
         <h1>Echinops sphaerocephalus</h1>
         <div class="info">
-            Uuendatud: 2016-12-02
+            Uuendatud: 2016-12-07
         </div>
-
-        <p>Kaardile koondatud taksonid: <em>Echinops sphaerocephalus L.</em></p>
-        <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
-        <div class="figure">
-        <img src="../images/Echinops_sphaerocephalus.png" />
-        
-        </div>
-        <p><a href="../posts/Echinops_exaltatus.html">eelmine</a> | <a href="../posts/Echium_vulgare.html">järgmine</a></p>
-        <p>Kaart põhineb <em>8</em> kirjel, neist vaatlusi <em>7</em> ja eksemplare <em>1</em>. Taksonit on leitud <em>8</em> ruudust.</p>
-        <p>Viited andmebaasikirjetele</p>
-        <ol style="list-style-type: decimal">
-        <li><a href="https://plutof.ut.ee/#/observation/view/860083">Malle Leht: 2015-07-25: 18-40: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1042583">Helle Mäemets, Mare Leis: 2015-06-25: 17-36: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1167212">Maret Gerz, Liina Oja: 2016-06-16: 20-37: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1175134">Liina Oja, Rein Kalamees: 2016-07-07: 10-19: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1175436">Liina Oja, Rein Kalamees: 2016-07-05: 12-21: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1221771">Liina Oja, Meeli Mesipuu: 2016-07-26: 04-36: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1247271">Toomas Kukk, Sander Laherand: 2016-08-30: 05-31: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/specimen/view/983149">Peedu Saar: 2015-08-30: 16-34: GPS punkt</a></li>
-        </ol>
-        
+             <p>Kaardile koondatud taksonid: <em>Echinops sphaerocephalus L.</em></p>
+             <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
+             <div class="figure">
+             <img src="../images/Echinops_sphaerocephalus.png" />
+             
+             </div>
+             <p><a href="../posts/Echinops_exaltatus.html" id="prevLink">eelmine</a> | <a href="../posts/Echium_vulgare.html" id="nextLink">järgmine</a></p>
+             <p>Kaart põhineb <strong>8</strong> kirjel, neist <span style="background-color:#FFFF00">vaatlusi</span> <strong>7</strong> ja <span style="background-color:#ADFF2F">eksemplare</span> <strong>1</strong>. Taksonit on leitud <strong>8</strong> ruudust.</p>
+             <div id="obs_table">
+             <p><label for="table_filter_input">Ruudu filter</label></p>
+             <p><input type="text" id="table_filter_input" oninput="filterTable()" placeholder="Filtreeri ruudu järgi"></p>
+             <table>
+             <thead>
+             <tr class="header">
+             <th align="center">Ruut</th>
+             <th align="left">Vaatleja(d)</th>
+             <th align="center">Vaatlusaeg</th>
+             <th align="center">Kirje tüüp</th>
+             <th align="center">Viide andmebaasikirjele</th>
+             </tr>
+             </thead>
+             <tbody>
+             <tr class="odd">
+             <td align="center">18-40</td>
+             <td align="left">Malle Leht</td>
+             <td align="center">2015-07-25</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/860083">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">17-36</td>
+             <td align="left">Helle Mäemets, Mare Leis</td>
+             <td align="center">2015-06-25</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1042583">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">20-37</td>
+             <td align="left">Maret Gerz, Liina Oja</td>
+             <td align="center">2016-06-16</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1167212">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">10-19</td>
+             <td align="left">Liina Oja, Rein Kalamees</td>
+             <td align="center">2016-07-07</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1175134">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">12-21</td>
+             <td align="left">Liina Oja, Rein Kalamees</td>
+             <td align="center">2016-07-05</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1175436">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">04-36</td>
+             <td align="left">Liina Oja, Meeli Mesipuu</td>
+             <td align="center">2016-07-26</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1221771">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">05-31</td>
+             <td align="left">Toomas Kukk, Sander Laherand</td>
+             <td align="center">2016-08-30</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1247271">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">16-34</td>
+             <td align="left">Peedu Saar</td>
+             <td align="center">2015-08-30</td>
+             <td align="center">eksemplar</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/specimen/view/983149">vaata PlutoFis</a></td>
+             </tr>
+             </tbody>
+             </table>
+             </div>        
     </div>
 </div>
 </body>

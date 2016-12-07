@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Eesti taimede uue levikuatlase tööversioon - Larix sibirica</title>
 <link rel="stylesheet" type="text/css" href="../css/default.css" />
+<script type="text/javascript" src="https://ottluuk.github.io/atlas/js/mapdetails.js" ></script>
 </head>
 <body>
 <div id="container">        
@@ -25,28 +26,82 @@
     <div id="content">
         <h1>Larix sibirica</h1>
         <div class="info">
-            Uuendatud: 2016-12-02
+            Uuendatud: 2016-12-07
         </div>
-
-        <p>Kaardile koondatud taksonid: <em>Larix sibirica Ledeb.</em></p>
-        <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
-        <div class="figure">
-        <img src="../images/Larix_sibirica.png" />
-        
-        </div>
-        <p><a href="../posts/Larix_decidua.html">eelmine</a> | <a href="../posts/Laserpitium_latifolium.html">järgmine</a></p>
-        <p>Kaart põhineb <em>7</em> vaatlusel. Taksonit on leitud <em>6</em> ruudust.</p>
-        <p>Viited andmebaasikirjetele</p>
-        <ol style="list-style-type: decimal">
-        <li><a href="https://plutof.ut.ee/#/observation/view/926163">Eeva-Maria Jeletsky, Tarmo Niitla: 2015-05-17: 14-37: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1032294">Kaili Orav, Silvia Pihu: 2015-06-19: 04-39: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1033453">Kaili Orav, Silvia Pihu: 2015-07-20: 06-39: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1138787">Rein Kalamees, Eerik Leibak: 2016-06-15: 23-44: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1153852">Silvia Pihu: 2016-07-10: 19-33: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1153857">Silvia Pihu, Illi Tarmu: 2016-07-10: 19-33: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1156320">Silvia Pihu: 2015-06-28: 21-37: GPS punkt</a></li>
-        </ol>
-        
+             <p>Kaardile koondatud taksonid: <em>Larix sibirica Ledeb.</em></p>
+             <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
+             <div class="figure">
+             <img src="../images/Larix_sibirica.png" />
+             
+             </div>
+             <p><a href="../posts/Larix_decidua.html" id="prevLink">eelmine</a> | <a href="../posts/Laserpitium_latifolium.html" id="nextLink">järgmine</a></p>
+             <p>Kaart põhineb <strong>7</strong> <span style="background-color:#FFFF00">vaatlusel</span>. Taime on leitud <strong>6</strong> ruudust.</p>
+             <div id="obs_table">
+             <p><label for="table_filter_input">Ruudu filter</label></p>
+             <p><input type="text" id="table_filter_input" oninput="filterTable()" placeholder="Filtreeri ruudu järgi"></p>
+             <table>
+             <thead>
+             <tr class="header">
+             <th align="center">Ruut</th>
+             <th align="left">Vaatleja(d)</th>
+             <th align="center">Vaatlusaeg</th>
+             <th align="center">Kirje tüüp</th>
+             <th align="center">Viide andmebaasikirjele</th>
+             </tr>
+             </thead>
+             <tbody>
+             <tr class="odd">
+             <td align="center">14-37</td>
+             <td align="left">Eeva-Maria Jeletsky, Tarmo Niitla</td>
+             <td align="center">2015-05-17</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/926163">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">04-39</td>
+             <td align="left">Kaili Orav, Silvia Pihu</td>
+             <td align="center">2015-06-19</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1032294">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">06-39</td>
+             <td align="left">Kaili Orav, Silvia Pihu</td>
+             <td align="center">2015-07-20</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1033453">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">23-44</td>
+             <td align="left">Rein Kalamees, Eerik Leibak</td>
+             <td align="center">2016-06-15</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1138787">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">19-33</td>
+             <td align="left">Silvia Pihu</td>
+             <td align="center">2016-07-10</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1153852">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">19-33</td>
+             <td align="left">Silvia Pihu, Illi Tarmu</td>
+             <td align="center">2016-07-10</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1153857">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">21-37</td>
+             <td align="left">Silvia Pihu</td>
+             <td align="center">2015-06-28</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1156320">vaata PlutoFis</a></td>
+             </tr>
+             </tbody>
+             </table>
+             </div>        
     </div>
 </div>
 </body>

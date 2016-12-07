@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Eesti taimede uue levikuatlase tööversioon - Saxifraga hirculus</title>
 <link rel="stylesheet" type="text/css" href="../css/default.css" />
+<script type="text/javascript" src="https://ottluuk.github.io/atlas/js/mapdetails.js" ></script>
 </head>
 <body>
 <div id="container">        
@@ -25,31 +26,103 @@
     <div id="content">
         <h1>Saxifraga hirculus</h1>
         <div class="info">
-            Uuendatud: 2016-12-02
+            Uuendatud: 2016-12-07
         </div>
-
-        <p>Kaardile koondatud taksonid: <em>Saxifraga hirculus L.</em></p>
-        <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
-        <div class="figure">
-        <img src="../images/Saxifraga_hirculus.png" />
-        
-        </div>
-        <p><a href="../posts/Saxifraga_granulata.html">eelmine</a> | <a href="../posts/Saxifraga_tridactylites.html">järgmine</a></p>
-        <p>Kaart põhineb <em>10</em> vaatlusel. Taksonit on leitud <em>3</em> ruudust.</p>
-        <p>Viited andmebaasikirjetele</p>
-        <ol style="list-style-type: decimal">
-        <li><a href="https://plutof.ut.ee/#/observation/view/1198042">Thea Kull, Peedu Saar: 2016-08-05: 21-43: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1198108">Thea Kull, Peedu Saar: 2016-08-05: 20-43: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1221186">Peedu Saar, Thea Kull: 2016-08-05: 20-43: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1221265">Peedu Saar, Thea Kull: 2016-08-05: 21-43: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1230741">Thea Kull, Ott Luuk: 2016-08-23: 18-38: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1230743">Thea Kull, Ott Luuk: 2016-08-23: 18-38: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1230744">Thea Kull, Ott Luuk: 2016-08-23: 18-38: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1299808">Ott Luuk, Thea Kull: 2016-08-23: 18-38: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1343509">Mall Värva: 2016-08-31: 18-38: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1343510">Mall Värva: 2016-08-31: 18-38: GPS punkt</a></li>
-        </ol>
-        
+             <p>Kaardile koondatud taksonid: <em>Saxifraga hirculus L.</em></p>
+             <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
+             <div class="figure">
+             <img src="../images/Saxifraga_hirculus.png" />
+             
+             </div>
+             <p><a href="../posts/Saxifraga_granulata.html" id="prevLink">eelmine</a> | <a href="../posts/Saxifraga_tridactylites.html" id="nextLink">järgmine</a></p>
+             <p>Kaart põhineb <strong>10</strong> <span style="background-color:#FFFF00">vaatlusel</span>. Taime on leitud <strong>3</strong> ruudust.</p>
+             <div id="obs_table">
+             <p><label for="table_filter_input">Ruudu filter</label></p>
+             <p><input type="text" id="table_filter_input" oninput="filterTable()" placeholder="Filtreeri ruudu järgi"></p>
+             <table>
+             <thead>
+             <tr class="header">
+             <th align="center">Ruut</th>
+             <th align="left">Vaatleja(d)</th>
+             <th align="center">Vaatlusaeg</th>
+             <th align="center">Kirje tüüp</th>
+             <th align="center">Viide andmebaasikirjele</th>
+             </tr>
+             </thead>
+             <tbody>
+             <tr class="odd">
+             <td align="center">21-43</td>
+             <td align="left">Thea Kull, Peedu Saar</td>
+             <td align="center">2016-08-05</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1198042">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">20-43</td>
+             <td align="left">Thea Kull, Peedu Saar</td>
+             <td align="center">2016-08-05</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1198108">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">20-43</td>
+             <td align="left">Peedu Saar, Thea Kull</td>
+             <td align="center">2016-08-05</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1221186">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">21-43</td>
+             <td align="left">Peedu Saar, Thea Kull</td>
+             <td align="center">2016-08-05</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1221265">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">18-38</td>
+             <td align="left">Thea Kull, Ott Luuk</td>
+             <td align="center">2016-08-23</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1230741">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">18-38</td>
+             <td align="left">Thea Kull, Ott Luuk</td>
+             <td align="center">2016-08-23</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1230743">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">18-38</td>
+             <td align="left">Thea Kull, Ott Luuk</td>
+             <td align="center">2016-08-23</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1230744">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">18-38</td>
+             <td align="left">Ott Luuk, Thea Kull</td>
+             <td align="center">2016-08-23</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1299808">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">18-38</td>
+             <td align="left">Mall Värva</td>
+             <td align="center">2016-08-31</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1343509">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">18-38</td>
+             <td align="left">Mall Värva</td>
+             <td align="center">2016-08-31</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1343510">vaata PlutoFis</a></td>
+             </tr>
+             </tbody>
+             </table>
+             </div>        
     </div>
 </div>
 </body>

@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Eesti taimede uue levikuatlase tööversioon - Aster lanceolatus</title>
 <link rel="stylesheet" type="text/css" href="../css/default.css" />
+<script type="text/javascript" src="https://ottluuk.github.io/atlas/js/mapdetails.js" ></script>
 </head>
 <body>
 <div id="container">        
@@ -25,31 +26,110 @@
     <div id="content">
         <h1>Aster lanceolatus</h1>
         <div class="info">
-            Uuendatud: 2016-12-02
+            Uuendatud: 2016-12-07
         </div>
-
-        <p>Kaardile koondatud taksonid: <em>Aster lanceolatus Willd.</em></p>
-        <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
-        <div class="figure">
-        <img src="../images/Aster_lanceolatus.png" />
-        
-        </div>
-        <p><a href="../posts/Asplenium_viride.html">eelmine</a> | <a href="../posts/Aster_novae-angeliae.html">järgmine</a></p>
-        <p>Kaart põhineb <em>10</em> vaatlusel. Taksonit on leitud <em>10</em> ruudust.</p>
-        <p>Viited andmebaasikirjetele</p>
-        <ol style="list-style-type: decimal">
-        <li><a href="https://plutof.ut.ee/#/observation/view/838748">Toomas Kukk, Indrek Tammekänd: 2015-05-09: 13-27: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1057097">Hanna-Eliisa Luts, Tõnu Ploompuu: 2015-07-28: 11-25: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1060515">Hanna-Eliisa Luts, Tõnu Ploompuu, Anna-Grete Rebane: 2015-07-19: 10-24: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1085294">Hanna-Eliisa Luts, Anna-Grete Rebane, Tõnu Ploompuu: 2015-07-20: 11-23: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1091428">Meelis Muuga, Tõnu Ploompuu: 2015-08-17: 08-25: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1095970">Sirje Lagle, Tõnu Ploompuu: 2015-08-18: 08-24: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1105544">Sirje Lagle, Tõnu Ploompuu: 2015-05-15: 10-23: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1265423">Hannes Pehlak, Tõnu Ploompuu, Marko Veinbergs: 2016-07-21: 14-30: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1276201">Tiit Hallikma, Tõnu Ploompuu: 2016-07-06: 17-24: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1278918">Tõnu Ploompuu, Hannes Pehlak, Marko Veinbergs: 2016-07-21: 13-30: ala</a></li>
-        </ol>
-        
+             <p>Kaardile koondatud taksonid: <em>Aster lanceolatus Willd.</em></p>
+             <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
+             <div class="figure">
+             <img src="../images/Aster_lanceolatus.png" />
+             
+             </div>
+             <p><a href="../posts/Asplenium_viride.html" id="prevLink">eelmine</a> | <a href="../posts/Aster_novae-angeliae.html" id="nextLink">järgmine</a></p>
+             <p>Kaart põhineb <strong>10</strong> <span style="background-color:#FFFF00">vaatlusel</span>. Taime on leitud <strong>10</strong> ruudust.</p>
+             <div id="obs_table">
+             <p><label for="table_filter_input">Ruudu filter</label></p>
+             <p><input type="text" id="table_filter_input" oninput="filterTable()" placeholder="Filtreeri ruudu järgi"></p>
+             <table style="width:49%;">
+             <colgroup>
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             </colgroup>
+             <thead>
+             <tr class="header">
+             <th align="center">Ruut</th>
+             <th align="left">Vaatleja(d)</th>
+             <th align="center">Vaatlusaeg</th>
+             <th align="center">Kirje tüüp</th>
+             <th align="center">Viide andmebaasikirjele</th>
+             </tr>
+             </thead>
+             <tbody>
+             <tr class="odd">
+             <td align="center">13-27</td>
+             <td align="left">Toomas Kukk, Indrek Tammekänd</td>
+             <td align="center">2015-05-09</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/838748">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">11-25</td>
+             <td align="left">Hanna-Eliisa Luts, Tõnu Ploompuu</td>
+             <td align="center">2015-07-28</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1057097">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">10-24</td>
+             <td align="left">Hanna-Eliisa Luts, Tõnu Ploompuu, Anna-Grete Rebane</td>
+             <td align="center">2015-07-19</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1060515">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">11-23</td>
+             <td align="left">Hanna-Eliisa Luts, Anna-Grete Rebane, Tõnu Ploompuu</td>
+             <td align="center">2015-07-20</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1085294">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">08-25</td>
+             <td align="left">Meelis Muuga, Tõnu Ploompuu</td>
+             <td align="center">2015-08-17</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1091428">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">08-24</td>
+             <td align="left">Sirje Lagle, Tõnu Ploompuu</td>
+             <td align="center">2015-08-18</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1095970">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">10-23</td>
+             <td align="left">Sirje Lagle, Tõnu Ploompuu</td>
+             <td align="center">2015-05-15</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1105544">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">14-30</td>
+             <td align="left">Hannes Pehlak, Tõnu Ploompuu, Marko Veinbergs</td>
+             <td align="center">2016-07-21</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1265423">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">17-24</td>
+             <td align="left">Tiit Hallikma, Tõnu Ploompuu</td>
+             <td align="center">2016-07-06</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1276201">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">13-30</td>
+             <td align="left">Tõnu Ploompuu, Hannes Pehlak, Marko Veinbergs</td>
+             <td align="center">2016-07-21</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1278918">vaata PlutoFis</a></td>
+             </tr>
+             </tbody>
+             </table>
+             </div>        
     </div>
 </div>
 </body>

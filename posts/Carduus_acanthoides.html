@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Eesti taimede uue levikuatlase tööversioon - Carduus acanthoides</title>
 <link rel="stylesheet" type="text/css" href="../css/default.css" />
+<script type="text/javascript" src="https://ottluuk.github.io/atlas/js/mapdetails.js" ></script>
 </head>
 <body>
 <div id="container">        
@@ -25,29 +26,89 @@
     <div id="content">
         <h1>Carduus acanthoides</h1>
         <div class="info">
-            Uuendatud: 2016-12-02
+            Uuendatud: 2016-12-07
         </div>
-
-        <p>Kaardile koondatud taksonid: <em>Carduus acanthoides L.</em></p>
-        <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
-        <div class="figure">
-        <img src="../images/Carduus_acanthoides.png" />
-        
-        </div>
-        <p><a href="../posts/Cardaminopsis_arenosa.html">eelmine</a> | <a href="../posts/Carduus_crispus.html">järgmine</a></p>
-        <p>Kaart põhineb <em>8</em> vaatlusel. Taksonit on leitud <em>8</em> ruudust.</p>
-        <p>Viited andmebaasikirjetele</p>
-        <ol style="list-style-type: decimal">
-        <li><a href="https://plutof.ut.ee/#/observation/view/976157">Mari Reitalu, Oliver Parrest: 2015-07-21: 15-12: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1006320">Aat Sarv: 2015-06-29: 10-25: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1006734">Meeli Mesipuu, Timo Luhamäe: 2015-06-11: 12-33: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1007243">Meeli Mesipuu, Timo Luhamäe: 2015-06-08: 13-31: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1035409">Ott Luuk, Peedu Saar: 2014-07-29: 10-20: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1043056">Aat Sarv: 2015-08-01: 14-34: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1064139">Aat Sarv: 2015-08-03: 08-28: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1343618">Meeli Mesipuu, Thea Kull: 2013-08-08: 24-38: GPS punkt</a></li>
-        </ol>
-        
+             <p>Kaardile koondatud taksonid: <em>Carduus acanthoides L.</em></p>
+             <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
+             <div class="figure">
+             <img src="../images/Carduus_acanthoides.png" />
+             
+             </div>
+             <p><a href="../posts/Cardaminopsis_arenosa.html" id="prevLink">eelmine</a> | <a href="../posts/Carduus_crispus.html" id="nextLink">järgmine</a></p>
+             <p>Kaart põhineb <strong>8</strong> <span style="background-color:#FFFF00">vaatlusel</span>. Taime on leitud <strong>8</strong> ruudust.</p>
+             <div id="obs_table">
+             <p><label for="table_filter_input">Ruudu filter</label></p>
+             <p><input type="text" id="table_filter_input" oninput="filterTable()" placeholder="Filtreeri ruudu järgi"></p>
+             <table>
+             <thead>
+             <tr class="header">
+             <th align="center">Ruut</th>
+             <th align="left">Vaatleja(d)</th>
+             <th align="center">Vaatlusaeg</th>
+             <th align="center">Kirje tüüp</th>
+             <th align="center">Viide andmebaasikirjele</th>
+             </tr>
+             </thead>
+             <tbody>
+             <tr class="odd">
+             <td align="center">15-12</td>
+             <td align="left">Mari Reitalu, Oliver Parrest</td>
+             <td align="center">2015-07-21</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/976157">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">10-25</td>
+             <td align="left">Aat Sarv</td>
+             <td align="center">2015-06-29</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1006320">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">12-33</td>
+             <td align="left">Meeli Mesipuu, Timo Luhamäe</td>
+             <td align="center">2015-06-11</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1006734">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">13-31</td>
+             <td align="left">Meeli Mesipuu, Timo Luhamäe</td>
+             <td align="center">2015-06-08</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1007243">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">10-20</td>
+             <td align="left">Ott Luuk, Peedu Saar</td>
+             <td align="center">2014-07-29</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1035409">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">14-34</td>
+             <td align="left">Aat Sarv</td>
+             <td align="center">2015-08-01</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1043056">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">08-28</td>
+             <td align="left">Aat Sarv</td>
+             <td align="center">2015-08-03</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1064139">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">24-38</td>
+             <td align="left">Meeli Mesipuu, Thea Kull</td>
+             <td align="center">2013-08-08</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1343618">vaata PlutoFis</a></td>
+             </tr>
+             </tbody>
+             </table>
+             </div>        
     </div>
 </div>
 </body>

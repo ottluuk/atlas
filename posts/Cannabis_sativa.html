@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Eesti taimede uue levikuatlase tööversioon - Cannabis sativa</title>
 <link rel="stylesheet" type="text/css" href="../css/default.css" />
+<script type="text/javascript" src="https://ottluuk.github.io/atlas/js/mapdetails.js" ></script>
 </head>
 <body>
 <div id="container">        
@@ -25,23 +26,54 @@
     <div id="content">
         <h1>Cannabis sativa</h1>
         <div class="info">
-            Uuendatud: 2016-12-02
+            Uuendatud: 2016-12-07
         </div>
-
-        <p>Kaardile koondatud taksonid: <em>Cannabis sativa L.</em></p>
-        <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
-        <div class="figure">
-        <img src="../images/Cannabis_sativa.png" />
-        
-        </div>
-        <p><a href="../posts/Campanula_trachelium.html">eelmine</a> | <a href="../posts/Capsella_bursa-pastoris.html">järgmine</a></p>
-        <p>Kaart põhineb <em>2</em> kirjel, neist vaatlusi <em>1</em> ja eksemplare <em>1</em>. Taksonit on leitud <em>2</em> ruudust.</p>
-        <p>Viited andmebaasikirjetele</p>
-        <ol style="list-style-type: decimal">
-        <li><a href="https://plutof.ut.ee/#/observation/view/1168151">Sander Laherand, Ott Luuk, Susanna Vain: 2016-06-14: 24-40: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/specimen/view/991314">Peedu Saar, Eerik Leibak: 2015-08-18: 11-39: GPS punkt</a></li>
-        </ol>
-        
+             <p>Kaardile koondatud taksonid: <em>Cannabis sativa L.</em></p>
+             <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
+             <div class="figure">
+             <img src="../images/Cannabis_sativa.png" />
+             
+             </div>
+             <p><a href="../posts/Campanula_trachelium.html" id="prevLink">eelmine</a> | <a href="../posts/Capsella_bursa-pastoris.html" id="nextLink">järgmine</a></p>
+             <p>Kaart põhineb <strong>2</strong> kirjel, neist <span style="background-color:#FFFF00">vaatlusi</span> <strong>1</strong> ja <span style="background-color:#ADFF2F">eksemplare</span> <strong>1</strong>. Taksonit on leitud <strong>2</strong> ruudust.</p>
+             <div id="obs_table">
+             <p><label for="table_filter_input">Ruudu filter</label></p>
+             <p><input type="text" id="table_filter_input" oninput="filterTable()" placeholder="Filtreeri ruudu järgi"></p>
+             <table style="width:49%;">
+             <colgroup>
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             </colgroup>
+             <thead>
+             <tr class="header">
+             <th align="center">Ruut</th>
+             <th align="left">Vaatleja(d)</th>
+             <th align="center">Vaatlusaeg</th>
+             <th align="center">Kirje tüüp</th>
+             <th align="center">Viide andmebaasikirjele</th>
+             </tr>
+             </thead>
+             <tbody>
+             <tr class="odd">
+             <td align="center">24-40</td>
+             <td align="left">Sander Laherand, Ott Luuk, Susanna Vain</td>
+             <td align="center">2016-06-14</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1168151">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">11-39</td>
+             <td align="left">Peedu Saar, Eerik Leibak</td>
+             <td align="center">2015-08-18</td>
+             <td align="center">eksemplar</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/specimen/view/991314">vaata PlutoFis</a></td>
+             </tr>
+             </tbody>
+             </table>
+             </div>        
     </div>
 </div>
 </body>

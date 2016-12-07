@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Eesti taimede uue levikuatlase tööversioon - Ranunculus lanuginosus</title>
 <link rel="stylesheet" type="text/css" href="../css/default.css" />
+<script type="text/javascript" src="https://ottluuk.github.io/atlas/js/mapdetails.js" ></script>
 </head>
 <body>
 <div id="container">        
@@ -25,31 +26,103 @@
     <div id="content">
         <h1>Ranunculus lanuginosus</h1>
         <div class="info">
-            Uuendatud: 2016-12-02
+            Uuendatud: 2016-12-07
         </div>
-
-        <p>Kaardile koondatud taksonid: <em>Ranunculus lanuginosus L.</em></p>
-        <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
-        <div class="figure">
-        <img src="../images/Ranunculus_lanuginosus.png" />
-        
-        </div>
-        <p><a href="../posts/Ranunculus_flammula.html">eelmine</a> | <a href="../posts/Ranunculus_lingua.html">järgmine</a></p>
-        <p>Kaart põhineb <em>10</em> vaatlusel. Taksonit on leitud <em>4</em> ruudust.</p>
-        <p>Viited andmebaasikirjetele</p>
-        <ol style="list-style-type: decimal">
-        <li><a href="https://plutof.ut.ee/#/observation/view/852023">Toomas Kukk, Peedu Saar: 2014-07-09: 08-44: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/852480">Toomas Kukk, Eerik Leibak: 2015-04-25: 06-46: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/852768">Toomas Kukk, Eerik Leibak: 2015-04-25: 06-46: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/919757">Toomas Kukk, Peedu Saar: 2014-07-11: 08-44: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/919758">Toomas Kukk, Peedu Saar: 2014-07-11: 08-44: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1010643">Meeli Mesipuu: 2015-06-01: 05-44: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1015632">Mari Metsoja, Jaak-Albert Metsoja: 2015-07-22: 06-47: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1033103">Meeli Mesipuu: 2015-06-01: 05-44: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1033104">Meeli Mesipuu: 2015-06-01: 05-44: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1033109">Meeli Mesipuu: 2015-06-01: 05-44: GPS punkt</a></li>
-        </ol>
-        
+             <p>Kaardile koondatud taksonid: <em>Ranunculus lanuginosus L.</em></p>
+             <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
+             <div class="figure">
+             <img src="../images/Ranunculus_lanuginosus.png" />
+             
+             </div>
+             <p><a href="../posts/Ranunculus_flammula.html" id="prevLink">eelmine</a> | <a href="../posts/Ranunculus_lingua.html" id="nextLink">järgmine</a></p>
+             <p>Kaart põhineb <strong>10</strong> <span style="background-color:#FFFF00">vaatlusel</span>. Taime on leitud <strong>4</strong> ruudust.</p>
+             <div id="obs_table">
+             <p><label for="table_filter_input">Ruudu filter</label></p>
+             <p><input type="text" id="table_filter_input" oninput="filterTable()" placeholder="Filtreeri ruudu järgi"></p>
+             <table>
+             <thead>
+             <tr class="header">
+             <th align="center">Ruut</th>
+             <th align="left">Vaatleja(d)</th>
+             <th align="center">Vaatlusaeg</th>
+             <th align="center">Kirje tüüp</th>
+             <th align="center">Viide andmebaasikirjele</th>
+             </tr>
+             </thead>
+             <tbody>
+             <tr class="odd">
+             <td align="center">08-44</td>
+             <td align="left">Toomas Kukk, Peedu Saar</td>
+             <td align="center">2014-07-09</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/852023">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">06-46</td>
+             <td align="left">Toomas Kukk, Eerik Leibak</td>
+             <td align="center">2015-04-25</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/852480">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">06-46</td>
+             <td align="left">Toomas Kukk, Eerik Leibak</td>
+             <td align="center">2015-04-25</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/852768">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">08-44</td>
+             <td align="left">Toomas Kukk, Peedu Saar</td>
+             <td align="center">2014-07-11</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/919757">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">08-44</td>
+             <td align="left">Toomas Kukk, Peedu Saar</td>
+             <td align="center">2014-07-11</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/919758">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">05-44</td>
+             <td align="left">Meeli Mesipuu</td>
+             <td align="center">2015-06-01</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1010643">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">06-47</td>
+             <td align="left">Mari Metsoja, Jaak-Albert Metsoja</td>
+             <td align="center">2015-07-22</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1015632">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">05-44</td>
+             <td align="left">Meeli Mesipuu</td>
+             <td align="center">2015-06-01</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1033103">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">05-44</td>
+             <td align="left">Meeli Mesipuu</td>
+             <td align="center">2015-06-01</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1033104">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">05-44</td>
+             <td align="left">Meeli Mesipuu</td>
+             <td align="center">2015-06-01</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1033109">vaata PlutoFis</a></td>
+             </tr>
+             </tbody>
+             </table>
+             </div>        
     </div>
 </div>
 </body>

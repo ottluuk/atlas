@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Eesti taimede uue levikuatlase tööversioon - Carex rhizina</title>
 <link rel="stylesheet" type="text/css" href="../css/default.css" />
+<script type="text/javascript" src="https://ottluuk.github.io/atlas/js/mapdetails.js" ></script>
 </head>
 <body>
 <div id="container">        
@@ -25,28 +26,82 @@
     <div id="content">
         <h1>Carex rhizina</h1>
         <div class="info">
-            Uuendatud: 2016-12-02
+            Uuendatud: 2016-12-07
         </div>
-
-        <p>Kaardile koondatud taksonid: <em>Carex rhizina Blytt ex Lindblom</em></p>
-        <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
-        <div class="figure">
-        <img src="../images/Carex_rhizina.png" />
-        
-        </div>
-        <p><a href="../posts/Carex_remota.html">eelmine</a> | <a href="../posts/Carex_rhynchophysa.html">järgmine</a></p>
-        <p>Kaart põhineb <em>7</em> kirjel, neist vaatlusi <em>4</em> ja eksemplare <em>3</em>. Taksonit on leitud <em>3</em> ruudust.</p>
-        <p>Viited andmebaasikirjetele</p>
-        <ol style="list-style-type: decimal">
-        <li><a href="https://plutof.ut.ee/#/observation/view/1031830">Ülle Jõgar, Illi Tarmu, Kai Rünk: 2015-05-19: 18-38: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1038390">Ülle Jõgar, Illi Tarmu, Kai Rünk: 2015-05-19: 18-38: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1099100">Meeli Mesipuu, Thea Kull: 2016-06-03: 07-26: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1099193">Meeli Mesipuu, Thea Kull: 2016-06-03: 07-26: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/specimen/view/1073906">Thea Kull, Meeli Mesipuu: 2016-06-03: 07-26: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/specimen/view/1073907">Thea Kull, Meeli Mesipuu: 2016-06-03: 07-26: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/specimen/view/1073909">Thea Kull: 2016-05-28: 19-41: GPS punkt</a></li>
-        </ol>
-        
+             <p>Kaardile koondatud taksonid: <em>Carex rhizina Blytt ex Lindblom</em></p>
+             <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
+             <div class="figure">
+             <img src="../images/Carex_rhizina.png" />
+             
+             </div>
+             <p><a href="../posts/Carex_remota.html" id="prevLink">eelmine</a> | <a href="../posts/Carex_rhynchophysa.html" id="nextLink">järgmine</a></p>
+             <p>Kaart põhineb <strong>7</strong> kirjel, neist <span style="background-color:#FFFF00">vaatlusi</span> <strong>4</strong> ja <span style="background-color:#ADFF2F">eksemplare</span> <strong>3</strong>. Taksonit on leitud <strong>3</strong> ruudust.</p>
+             <div id="obs_table">
+             <p><label for="table_filter_input">Ruudu filter</label></p>
+             <p><input type="text" id="table_filter_input" oninput="filterTable()" placeholder="Filtreeri ruudu järgi"></p>
+             <table>
+             <thead>
+             <tr class="header">
+             <th align="center">Ruut</th>
+             <th align="left">Vaatleja(d)</th>
+             <th align="center">Vaatlusaeg</th>
+             <th align="center">Kirje tüüp</th>
+             <th align="center">Viide andmebaasikirjele</th>
+             </tr>
+             </thead>
+             <tbody>
+             <tr class="odd">
+             <td align="center">18-38</td>
+             <td align="left">Ülle Jõgar, Illi Tarmu, Kai Rünk</td>
+             <td align="center">2015-05-19</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1031830">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">18-38</td>
+             <td align="left">Ülle Jõgar, Illi Tarmu, Kai Rünk</td>
+             <td align="center">2015-05-19</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1038390">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">07-26</td>
+             <td align="left">Meeli Mesipuu, Thea Kull</td>
+             <td align="center">2016-06-03</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1099100">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">07-26</td>
+             <td align="left">Meeli Mesipuu, Thea Kull</td>
+             <td align="center">2016-06-03</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1099193">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">07-26</td>
+             <td align="left">Thea Kull, Meeli Mesipuu</td>
+             <td align="center">2016-06-03</td>
+             <td align="center">eksemplar</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/specimen/view/1073906">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">07-26</td>
+             <td align="left">Thea Kull, Meeli Mesipuu</td>
+             <td align="center">2016-06-03</td>
+             <td align="center">eksemplar</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/specimen/view/1073907">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">19-41</td>
+             <td align="left">Thea Kull</td>
+             <td align="center">2016-05-28</td>
+             <td align="center">eksemplar</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/specimen/view/1073909">vaata PlutoFis</a></td>
+             </tr>
+             </tbody>
+             </table>
+             </div>        
     </div>
 </div>
 </body>

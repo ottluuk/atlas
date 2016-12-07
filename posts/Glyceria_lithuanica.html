@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Eesti taimede uue levikuatlase tööversioon - Glyceria lithuanica</title>
 <link rel="stylesheet" type="text/css" href="../css/default.css" />
+<script type="text/javascript" src="https://ottluuk.github.io/atlas/js/mapdetails.js" ></script>
 </head>
 <body>
 <div id="container">        
@@ -25,30 +26,96 @@
     <div id="content">
         <h1>Glyceria lithuanica</h1>
         <div class="info">
-            Uuendatud: 2016-12-02
+            Uuendatud: 2016-12-07
         </div>
-
-        <p>Kaardile koondatud taksonid: <em>Glyceria lithuanica (Gorski) Gorski</em></p>
-        <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
-        <div class="figure">
-        <img src="../images/Glyceria_lithuanica.png" />
-        
-        </div>
-        <p><a href="../posts/Glyceria_fluitans.html">eelmine</a> | <a href="../posts/Glyceria_maxima.html">järgmine</a></p>
-        <p>Kaart põhineb <em>9</em> kirjel, neist vaatlusi <em>8</em> ja eksemplare <em>1</em>. Taksonit on leitud <em>6</em> ruudust.</p>
-        <p>Viited andmebaasikirjetele</p>
-        <ol style="list-style-type: decimal">
-        <li><a href="https://plutof.ut.ee/#/observation/view/863223">Peedu Saar, Liina Oja: 2015-07-22: 08-45: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/880231">Tiit Hallikma, Toomas Kukk: 2015-07-20: 07-44: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/902566">Thea Kull, Eerik Leibak: 2016-07-24: 08-43: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/917552">Thea Kull, Eerik Leibak: 2015-07-23: 08-46: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/926418">Thea Kull, Eerik Leibak: 2015-07-23: 08-46: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/926542">Thea Kull, Eerik Leibak: 2015-07-24: 08-43: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/927141">Thea Kull, Eerik Leibak: 2015-09-10: 07-41: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1354414">Jaak-Albert Metsoja, Aat Sarv: 2016-07-18: 15-33: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/specimen/view/987308">Peedu Saar, Liina Oja: 2015-07-22: 08-45: GPS punkt</a></li>
-        </ol>
-        
+             <p>Kaardile koondatud taksonid: <em>Glyceria lithuanica (Gorski) Gorski</em></p>
+             <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
+             <div class="figure">
+             <img src="../images/Glyceria_lithuanica.png" />
+             
+             </div>
+             <p><a href="../posts/Glyceria_fluitans.html" id="prevLink">eelmine</a> | <a href="../posts/Glyceria_maxima.html" id="nextLink">järgmine</a></p>
+             <p>Kaart põhineb <strong>9</strong> kirjel, neist <span style="background-color:#FFFF00">vaatlusi</span> <strong>8</strong> ja <span style="background-color:#ADFF2F">eksemplare</span> <strong>1</strong>. Taksonit on leitud <strong>6</strong> ruudust.</p>
+             <div id="obs_table">
+             <p><label for="table_filter_input">Ruudu filter</label></p>
+             <p><input type="text" id="table_filter_input" oninput="filterTable()" placeholder="Filtreeri ruudu järgi"></p>
+             <table>
+             <thead>
+             <tr class="header">
+             <th align="center">Ruut</th>
+             <th align="left">Vaatleja(d)</th>
+             <th align="center">Vaatlusaeg</th>
+             <th align="center">Kirje tüüp</th>
+             <th align="center">Viide andmebaasikirjele</th>
+             </tr>
+             </thead>
+             <tbody>
+             <tr class="odd">
+             <td align="center">08-45</td>
+             <td align="left">Peedu Saar, Liina Oja</td>
+             <td align="center">2015-07-22</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/863223">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">07-44</td>
+             <td align="left">Tiit Hallikma, Toomas Kukk</td>
+             <td align="center">2015-07-20</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/880231">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">08-43</td>
+             <td align="left">Thea Kull, Eerik Leibak</td>
+             <td align="center">2016-07-24</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/902566">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">08-46</td>
+             <td align="left">Thea Kull, Eerik Leibak</td>
+             <td align="center">2015-07-23</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/917552">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">08-46</td>
+             <td align="left">Thea Kull, Eerik Leibak</td>
+             <td align="center">2015-07-23</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/926418">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">08-43</td>
+             <td align="left">Thea Kull, Eerik Leibak</td>
+             <td align="center">2015-07-24</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/926542">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">07-41</td>
+             <td align="left">Thea Kull, Eerik Leibak</td>
+             <td align="center">2015-09-10</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/927141">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">15-33</td>
+             <td align="left">Jaak-Albert Metsoja, Aat Sarv</td>
+             <td align="center">2016-07-18</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1354414">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">08-45</td>
+             <td align="left">Peedu Saar, Liina Oja</td>
+             <td align="center">2015-07-22</td>
+             <td align="center">eksemplar</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/specimen/view/987308">vaata PlutoFis</a></td>
+             </tr>
+             </tbody>
+             </table>
+             </div>        
     </div>
 </div>
 </body>

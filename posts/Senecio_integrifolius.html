@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Eesti taimede uue levikuatlase tööversioon - Senecio integrifolius</title>
 <link rel="stylesheet" type="text/css" href="../css/default.css" />
+<script type="text/javascript" src="https://ottluuk.github.io/atlas/js/mapdetails.js" ></script>
 </head>
 <body>
 <div id="container">        
@@ -25,35 +26,138 @@
     <div id="content">
         <h1>Senecio integrifolius</h1>
         <div class="info">
-            Uuendatud: 2016-12-02
+            Uuendatud: 2016-12-07
         </div>
-
-        <p>Kaardile koondatud taksonid: <em>Senecio integrifolius (L.) Clairv.</em></p>
-        <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
-        <div class="figure">
-        <img src="../images/Senecio_integrifolius.png" />
-        
-        </div>
-        <p><a href="../posts/Senecio_fluviatilis.html">eelmine</a> | <a href="../posts/Senecio_jacobaea.html">järgmine</a></p>
-        <p>Kaart põhineb <em>14</em> vaatlusel. Taksonit on leitud <em>7</em> ruudust.</p>
-        <p>Viited andmebaasikirjetele</p>
-        <ol style="list-style-type: decimal">
-        <li><a href="https://plutof.ut.ee/#/observation/view/842004">Rein Kalamees: 2015-08-09: 05-31: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/918573">Jana-Maria Habicht, Ester Valdvee: 2015-06-27: 07-34: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/942091">Jana-Maria Habicht, Ester Valdvee: 2015-06-27: 07-34: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/945813">Erkki Otsman, Sergei Smirnov: 2015-05-29: 06-24: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/954816">Erkki Otsman, Sergei Smirnov: 2015-06-26: 05-28: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/963852">Erkki Otsman, Sergei Smirnov: 2015-07-12: 05-29: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/988426">Erkki Otsman, Sergei Smirnov: 2015-05-29: 06-24: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/998046">Erkki Otsman, Sergei Smirnov: 2015-06-29: 05-28: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/998481">Erkki Otsman, Sergei Smirnov: 2015-07-12: 05-29: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1028337">Jaak-Albert Metsoja, Mari Metsoja, Ott Luuk: 2015-06-05: 06-24: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1028765">Jaak-Albert Metsoja, Mari Metsoja, Ott Luuk: 2015-06-05: 06-23: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1095207">Rein Kalamees: 2016-05-28: 05-32: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1103506">Peedu Saar, Toomas Kukk: 2016-06-01: 05-28: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1103712">Toomas Kukk, Peedu Saar: 2016-06-01: 05-28: GPS punkt</a></li>
-        </ol>
-        
+             <p>Kaardile koondatud taksonid: <em>Senecio integrifolius (L.) Clairv.</em></p>
+             <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
+             <div class="figure">
+             <img src="../images/Senecio_integrifolius.png" />
+             
+             </div>
+             <p><a href="../posts/Senecio_fluviatilis.html" id="prevLink">eelmine</a> | <a href="../posts/Senecio_jacobaea.html" id="nextLink">järgmine</a></p>
+             <p>Kaart põhineb <strong>14</strong> <span style="background-color:#FFFF00">vaatlusel</span>. Taime on leitud <strong>7</strong> ruudust.</p>
+             <div id="obs_table">
+             <p><label for="table_filter_input">Ruudu filter</label></p>
+             <p><input type="text" id="table_filter_input" oninput="filterTable()" placeholder="Filtreeri ruudu järgi"></p>
+             <table style="width:49%;">
+             <colgroup>
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             </colgroup>
+             <thead>
+             <tr class="header">
+             <th align="center">Ruut</th>
+             <th align="left">Vaatleja(d)</th>
+             <th align="center">Vaatlusaeg</th>
+             <th align="center">Kirje tüüp</th>
+             <th align="center">Viide andmebaasikirjele</th>
+             </tr>
+             </thead>
+             <tbody>
+             <tr class="odd">
+             <td align="center">05-31</td>
+             <td align="left">Rein Kalamees</td>
+             <td align="center">2015-08-09</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/842004">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">07-34</td>
+             <td align="left">Jana-Maria Habicht, Ester Valdvee</td>
+             <td align="center">2015-06-27</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/918573">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">07-34</td>
+             <td align="left">Jana-Maria Habicht, Ester Valdvee</td>
+             <td align="center">2015-06-27</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/942091">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">06-24</td>
+             <td align="left">Erkki Otsman, Sergei Smirnov</td>
+             <td align="center">2015-05-29</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/945813">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">05-28</td>
+             <td align="left">Erkki Otsman, Sergei Smirnov</td>
+             <td align="center">2015-06-26</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/954816">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">05-29</td>
+             <td align="left">Erkki Otsman, Sergei Smirnov</td>
+             <td align="center">2015-07-12</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/963852">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">06-24</td>
+             <td align="left">Erkki Otsman, Sergei Smirnov</td>
+             <td align="center">2015-05-29</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/988426">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">05-28</td>
+             <td align="left">Erkki Otsman, Sergei Smirnov</td>
+             <td align="center">2015-06-29</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/998046">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">05-29</td>
+             <td align="left">Erkki Otsman, Sergei Smirnov</td>
+             <td align="center">2015-07-12</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/998481">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">06-24</td>
+             <td align="left">Jaak-Albert Metsoja, Mari Metsoja, Ott Luuk</td>
+             <td align="center">2015-06-05</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1028337">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">06-23</td>
+             <td align="left">Jaak-Albert Metsoja, Mari Metsoja, Ott Luuk</td>
+             <td align="center">2015-06-05</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1028765">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">05-32</td>
+             <td align="left">Rein Kalamees</td>
+             <td align="center">2016-05-28</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1095207">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">05-28</td>
+             <td align="left">Peedu Saar, Toomas Kukk</td>
+             <td align="center">2016-06-01</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1103506">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">05-28</td>
+             <td align="left">Toomas Kukk, Peedu Saar</td>
+             <td align="center">2016-06-01</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1103712">vaata PlutoFis</a></td>
+             </tr>
+             </tbody>
+             </table>
+             </div>        
     </div>
 </div>
 </body>

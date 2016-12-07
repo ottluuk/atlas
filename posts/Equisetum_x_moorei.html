@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Eesti taimede uue levikuatlase tööversioon - Equisetum x moorei</title>
 <link rel="stylesheet" type="text/css" href="../css/default.css" />
+<script type="text/javascript" src="https://ottluuk.github.io/atlas/js/mapdetails.js" ></script>
 </head>
 <body>
 <div id="container">        
@@ -25,30 +26,103 @@
     <div id="content">
         <h1>Equisetum x moorei</h1>
         <div class="info">
-            Uuendatud: 2016-12-02
+            Uuendatud: 2016-12-07
         </div>
-
-        <p>Kaardile koondatud taksonid: <em>Equisetum x moorei Newman</em></p>
-        <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
-        <div class="figure">
-        <img src="../images/Equisetum_x_moorei.png" />
-        
-        </div>
-        <p><a href="../posts/Equisetum_x_litorale.html">eelmine</a> | <a href="../posts/Equisetum_x_trachyodon.html">järgmine</a></p>
-        <p>Kaart põhineb <em>9</em> vaatlusel. Taksonit on leitud <em>3</em> ruudust.</p>
-        <p>Viited andmebaasikirjetele</p>
-        <ol style="list-style-type: decimal">
-        <li><a href="https://plutof.ut.ee/#/observation/view/948168">Mari Reitalu, Sirje Azarov: 2015-05-12: 17-13: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/949006">Mari Reitalu, Sirje Azarov: 2015-05-12: 17-13: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/963999">Mari Reitalu, Sirje Azarov: 2015-05-12: 17-14: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/987765">Mari Reitalu, Sirje Azarov: 2015-05-12: 17-14: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1170065">Thea Kull, Helle Mäemets: 2016-07-07: 06-24: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1210906">Toomas Kukk, Meeli Mesipuu, Johannes Kõdar: 2016-08-11: 17-14: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1291503">Peedu Saar, Ott Luuk: 2016-10-08: 17-13: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1296270">Ott Luuk, Peedu Saar: 2016-10-08: 17-13: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1333400">Meeli Mesipuu, Toomas Kukk, Johannes Kõdar: 2016-08-11: 17-14: GPS punkt</a></li>
-        </ol>
-        
+             <p>Kaardile koondatud taksonid: <em>Equisetum x moorei Newman</em></p>
+             <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
+             <div class="figure">
+             <img src="../images/Equisetum_x_moorei.png" />
+             
+             </div>
+             <p><a href="../posts/Equisetum_x_litorale.html" id="prevLink">eelmine</a> | <a href="../posts/Equisetum_x_trachyodon.html" id="nextLink">järgmine</a></p>
+             <p>Kaart põhineb <strong>9</strong> <span style="background-color:#FFFF00">vaatlusel</span>. Taime on leitud <strong>3</strong> ruudust.</p>
+             <div id="obs_table">
+             <p><label for="table_filter_input">Ruudu filter</label></p>
+             <p><input type="text" id="table_filter_input" oninput="filterTable()" placeholder="Filtreeri ruudu järgi"></p>
+             <table style="width:49%;">
+             <colgroup>
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             </colgroup>
+             <thead>
+             <tr class="header">
+             <th align="center">Ruut</th>
+             <th align="left">Vaatleja(d)</th>
+             <th align="center">Vaatlusaeg</th>
+             <th align="center">Kirje tüüp</th>
+             <th align="center">Viide andmebaasikirjele</th>
+             </tr>
+             </thead>
+             <tbody>
+             <tr class="odd">
+             <td align="center">17-13</td>
+             <td align="left">Mari Reitalu, Sirje Azarov</td>
+             <td align="center">2015-05-12</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/948168">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">17-13</td>
+             <td align="left">Mari Reitalu, Sirje Azarov</td>
+             <td align="center">2015-05-12</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/949006">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">17-14</td>
+             <td align="left">Mari Reitalu, Sirje Azarov</td>
+             <td align="center">2015-05-12</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/963999">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">17-14</td>
+             <td align="left">Mari Reitalu, Sirje Azarov</td>
+             <td align="center">2015-05-12</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/987765">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">06-24</td>
+             <td align="left">Thea Kull, Helle Mäemets</td>
+             <td align="center">2016-07-07</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1170065">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">17-14</td>
+             <td align="left">Toomas Kukk, Meeli Mesipuu, Johannes Kõdar</td>
+             <td align="center">2016-08-11</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1210906">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">17-13</td>
+             <td align="left">Peedu Saar, Ott Luuk</td>
+             <td align="center">2016-10-08</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1291503">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">17-13</td>
+             <td align="left">Ott Luuk, Peedu Saar</td>
+             <td align="center">2016-10-08</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1296270">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">17-14</td>
+             <td align="left">Meeli Mesipuu, Toomas Kukk, Johannes Kõdar</td>
+             <td align="center">2016-08-11</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1333400">vaata PlutoFis</a></td>
+             </tr>
+             </tbody>
+             </table>
+             </div>        
     </div>
 </div>
 </body>

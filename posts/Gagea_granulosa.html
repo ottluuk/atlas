@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Eesti taimede uue levikuatlase tööversioon - Gagea granulosa</title>
 <link rel="stylesheet" type="text/css" href="../css/default.css" />
+<script type="text/javascript" src="https://ottluuk.github.io/atlas/js/mapdetails.js" ></script>
 </head>
 <body>
 <div id="container">        
@@ -25,41 +26,173 @@
     <div id="content">
         <h1>Gagea granulosa</h1>
         <div class="info">
-            Uuendatud: 2016-12-02
+            Uuendatud: 2016-12-07
         </div>
-
-        <p>Kaardile koondatud taksonid: <em>Gagea granulosa Turcz.</em></p>
-        <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
-        <div class="figure">
-        <img src="../images/Gagea_granulosa.png" />
-        
-        </div>
-        <p><a href="../posts/Fumaria_officinalis.html">eelmine</a> | <a href="../posts/Gagea_lutea.html">järgmine</a></p>
-        <p>Kaart põhineb <em>20</em> vaatlusel. Taksonit on leitud <em>10</em> ruudust.</p>
-        <p>Viited andmebaasikirjetele</p>
-        <ol style="list-style-type: decimal">
-        <li><a href="https://plutof.ut.ee/#/observation/view/849405">Toomas Kukk, Eerik Leibak: 2015-05-03: 16-43: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/849806">Eerik Leibak, Toomas Kukk: 2015-05-03: 16-44: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/849978">Eerik Leibak, Toomas Kukk: 2015-05-03: 17-44: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/850731">Toomas Kukk, Eerik Leibak: 2015-05-03: 16-44: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/850814">Toomas Kukk, Eerik Leibak: 2015-05-03: 17-44: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/980063">Toivo Sepp, Eerik Leibak: 2015-05-12: 08-35: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/980229">Toivo Sepp, Eerik Leibak: 2015-05-12: 08-35: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/994182">Karin Kikas, Elle Rajandu: 2015-04-30: 16-40: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/994358">Elle Rajandu: 2015-04-25: 16-40: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/994398">Elle Rajandu: 2015-04-25: 16-40: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/994617">Karin Kikas, Elle Rajandu: 2015-04-21: 16-40: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/994685">Elle Rajandu: 2015-04-27: 16-40: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/994717">Elle Rajandu: 2015-04-27: 16-40: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/995145">Elle Rajandu: 2015-04-15: 15-40: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/995411">Elle Rajandu: 2015-04-30: 15-40: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/996651">Karin Kikas, Elle Rajandu: 2015-04-20: 14-40: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/996790">Karin Kikas, Elle Rajandu: 2015-04-28: 14-40: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1063089">Toomas Kukk, Eerik Leibak: 2016-04-25: 20-41: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1063494">Toomas Kukk, Eerik Leibak: 2016-04-27: 22-36: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1074731">Rein Kalamees: 2016-05-07: 05-31: ala</a></li>
-        </ol>
-        
+             <p>Kaardile koondatud taksonid: <em>Gagea granulosa Turcz.</em></p>
+             <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
+             <div class="figure">
+             <img src="../images/Gagea_granulosa.png" />
+             
+             </div>
+             <p><a href="../posts/Fumaria_officinalis.html" id="prevLink">eelmine</a> | <a href="../posts/Gagea_lutea.html" id="nextLink">järgmine</a></p>
+             <p>Kaart põhineb <strong>20</strong> <span style="background-color:#FFFF00">vaatlusel</span>. Taime on leitud <strong>10</strong> ruudust.</p>
+             <div id="obs_table">
+             <p><label for="table_filter_input">Ruudu filter</label></p>
+             <p><input type="text" id="table_filter_input" oninput="filterTable()" placeholder="Filtreeri ruudu järgi"></p>
+             <table>
+             <thead>
+             <tr class="header">
+             <th align="center">Ruut</th>
+             <th align="left">Vaatleja(d)</th>
+             <th align="center">Vaatlusaeg</th>
+             <th align="center">Kirje tüüp</th>
+             <th align="center">Viide andmebaasikirjele</th>
+             </tr>
+             </thead>
+             <tbody>
+             <tr class="odd">
+             <td align="center">16-43</td>
+             <td align="left">Toomas Kukk, Eerik Leibak</td>
+             <td align="center">2015-05-03</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/849405">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">16-44</td>
+             <td align="left">Eerik Leibak, Toomas Kukk</td>
+             <td align="center">2015-05-03</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/849806">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">17-44</td>
+             <td align="left">Eerik Leibak, Toomas Kukk</td>
+             <td align="center">2015-05-03</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/849978">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">16-44</td>
+             <td align="left">Toomas Kukk, Eerik Leibak</td>
+             <td align="center">2015-05-03</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/850731">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">17-44</td>
+             <td align="left">Toomas Kukk, Eerik Leibak</td>
+             <td align="center">2015-05-03</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/850814">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">08-35</td>
+             <td align="left">Toivo Sepp, Eerik Leibak</td>
+             <td align="center">2015-05-12</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/980063">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">08-35</td>
+             <td align="left">Toivo Sepp, Eerik Leibak</td>
+             <td align="center">2015-05-12</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/980229">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">16-40</td>
+             <td align="left">Karin Kikas, Elle Rajandu</td>
+             <td align="center">2015-04-30</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/994182">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">16-40</td>
+             <td align="left">Elle Rajandu</td>
+             <td align="center">2015-04-25</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/994358">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">16-40</td>
+             <td align="left">Elle Rajandu</td>
+             <td align="center">2015-04-25</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/994398">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">16-40</td>
+             <td align="left">Karin Kikas, Elle Rajandu</td>
+             <td align="center">2015-04-21</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/994617">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">16-40</td>
+             <td align="left">Elle Rajandu</td>
+             <td align="center">2015-04-27</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/994685">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">16-40</td>
+             <td align="left">Elle Rajandu</td>
+             <td align="center">2015-04-27</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/994717">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">15-40</td>
+             <td align="left">Elle Rajandu</td>
+             <td align="center">2015-04-15</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/995145">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">15-40</td>
+             <td align="left">Elle Rajandu</td>
+             <td align="center">2015-04-30</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/995411">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">14-40</td>
+             <td align="left">Karin Kikas, Elle Rajandu</td>
+             <td align="center">2015-04-20</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/996651">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">14-40</td>
+             <td align="left">Karin Kikas, Elle Rajandu</td>
+             <td align="center">2015-04-28</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/996790">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">20-41</td>
+             <td align="left">Toomas Kukk, Eerik Leibak</td>
+             <td align="center">2016-04-25</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1063089">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">22-36</td>
+             <td align="left">Toomas Kukk, Eerik Leibak</td>
+             <td align="center">2016-04-27</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1063494">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">05-31</td>
+             <td align="left">Rein Kalamees</td>
+             <td align="center">2016-05-07</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1074731">vaata PlutoFis</a></td>
+             </tr>
+             </tbody>
+             </table>
+             </div>        
     </div>
 </div>
 </body>

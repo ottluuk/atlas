@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Eesti taimede uue levikuatlase tööversioon - Holcus mollis</title>
 <link rel="stylesheet" type="text/css" href="../css/default.css" />
+<script type="text/javascript" src="https://ottluuk.github.io/atlas/js/mapdetails.js" ></script>
 </head>
 <body>
 <div id="container">        
@@ -25,28 +26,89 @@
     <div id="content">
         <h1>Holcus mollis</h1>
         <div class="info">
-            Uuendatud: 2016-12-02
+            Uuendatud: 2016-12-07
         </div>
-
-        <p>Kaardile koondatud taksonid: <em>Holcus mollis L.</em></p>
-        <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
-        <div class="figure">
-        <img src="../images/Holcus_mollis.png" />
-        
-        </div>
-        <p><a href="../posts/Holcus_lanatus.html">eelmine</a> | <a href="../posts/Honckenya_peploides.html">järgmine</a></p>
-        <p>Kaart põhineb <em>7</em> kirjel, neist vaatlusi <em>5</em> ja eksemplare <em>2</em>. Taksonit on leitud <em>5</em> ruudust.</p>
-        <p>Viited andmebaasikirjetele</p>
-        <ol style="list-style-type: decimal">
-        <li><a href="https://plutof.ut.ee/#/observation/view/911183">Toomas Kukk, Timo Luhamäe, Kersti Tambets, Sten Mander, Janika Sammasto: 2014-07-30: 21-45: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1056377">Oliver Parrest: 2015-08-15: 20-12: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1135460">Toomas Kukk, Tiit Hallikma, Johannes Kõdar: 2016-06-14: 21-45: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1168373">Tiit Hallikma, Toomas Kukk, Johannes Kõdar: 2016-06-14: 21-45: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1207523">Thea Kull, Indrek Tammekänd: 2016-07-19: 18-33: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/specimen/view/987329">Peedu Saar, Ott Luuk: 2015-09-24: 23-42: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/specimen/view/998265">Meeli Mesipuu, Thea Kull: 2012-09-16: 22-42: GPS punkt</a></li>
-        </ol>
-        
+             <p>Kaardile koondatud taksonid: <em>Holcus mollis L.</em></p>
+             <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
+             <div class="figure">
+             <img src="../images/Holcus_mollis.png" />
+             
+             </div>
+             <p><a href="../posts/Holcus_lanatus.html" id="prevLink">eelmine</a> | <a href="../posts/Honckenya_peploides.html" id="nextLink">järgmine</a></p>
+             <p>Kaart põhineb <strong>7</strong> kirjel, neist <span style="background-color:#FFFF00">vaatlusi</span> <strong>5</strong> ja <span style="background-color:#ADFF2F">eksemplare</span> <strong>2</strong>. Taksonit on leitud <strong>5</strong> ruudust.</p>
+             <div id="obs_table">
+             <p><label for="table_filter_input">Ruudu filter</label></p>
+             <p><input type="text" id="table_filter_input" oninput="filterTable()" placeholder="Filtreeri ruudu järgi"></p>
+             <table style="width:49%;">
+             <colgroup>
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             </colgroup>
+             <thead>
+             <tr class="header">
+             <th align="center">Ruut</th>
+             <th align="left">Vaatleja(d)</th>
+             <th align="center">Vaatlusaeg</th>
+             <th align="center">Kirje tüüp</th>
+             <th align="center">Viide andmebaasikirjele</th>
+             </tr>
+             </thead>
+             <tbody>
+             <tr class="odd">
+             <td align="center">21-45</td>
+             <td align="left">Toomas Kukk, Timo Luhamäe, Kersti Tambets, Sten Mander, Janika Sammasto</td>
+             <td align="center">2014-07-30</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/911183">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">20-12</td>
+             <td align="left">Oliver Parrest</td>
+             <td align="center">2015-08-15</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1056377">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">21-45</td>
+             <td align="left">Toomas Kukk, Tiit Hallikma, Johannes Kõdar</td>
+             <td align="center">2016-06-14</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1135460">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">21-45</td>
+             <td align="left">Tiit Hallikma, Toomas Kukk, Johannes Kõdar</td>
+             <td align="center">2016-06-14</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1168373">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">18-33</td>
+             <td align="left">Thea Kull, Indrek Tammekänd</td>
+             <td align="center">2016-07-19</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1207523">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">23-42</td>
+             <td align="left">Peedu Saar, Ott Luuk</td>
+             <td align="center">2015-09-24</td>
+             <td align="center">eksemplar</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/specimen/view/987329">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">22-42</td>
+             <td align="left">Meeli Mesipuu, Thea Kull</td>
+             <td align="center">2012-09-16</td>
+             <td align="center">eksemplar</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/specimen/view/998265">vaata PlutoFis</a></td>
+             </tr>
+             </tbody>
+             </table>
+             </div>        
     </div>
 </div>
 </body>

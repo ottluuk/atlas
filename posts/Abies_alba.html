@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Eesti taimede uue levikuatlase tööversioon - Abies alba</title>
 <link rel="stylesheet" type="text/css" href="../css/default.css" />
+<script type="text/javascript" src="https://ottluuk.github.io/atlas/js/mapdetails.js" ></script>
 </head>
 <body>
 <div id="container">        
@@ -25,33 +26,117 @@
     <div id="content">
         <h1>Abies alba</h1>
         <div class="info">
-            Uuendatud: 2016-12-02
+            Uuendatud: 2016-12-07
         </div>
-
-        <p>Kaardile koondatud taksonid: <em>Abies alba Mill.</em></p>
-        <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
-        <div class="figure">
-        <img src="../images/Abies_alba.png" />
-        
-        </div>
-        <p><a href="../posts/Xanthium_strumarium.html">eelmine</a> | <a href="../posts/Abies_balsamea.html">järgmine</a></p>
-        <p>Kaart põhineb <em>12</em> vaatlusel. Taksonit on leitud <em>6</em> ruudust.</p>
-        <p>Viited andmebaasikirjetele</p>
-        <ol style="list-style-type: decimal">
-        <li><a href="https://plutof.ut.ee/#/observation/view/882218">Thea Kull, Meeli Mesipuu: 2015-04-16: 12-39: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/934211">Eeva-Maria Jeletsky, Tarmo Niitla: 2015-06-27: 11-15: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/934212">Eeva-Maria Jeletsky, Tarmo Niitla: 2015-06-27: 11-15: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/934213">Eeva-Maria Jeletsky, Tarmo Niitla: 2015-06-27: 11-15: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/934231">Eeva-Maria Jeletsky, Tarmo Niitla: 2015-06-27: 11-15: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/934330">Eeva-Maria Jeletsky, Tarmo Niitla: 2015-06-20: 11-17: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/934906">Eeva-Maria Jeletsky, Tarmo Niitla: 2015-06-27: 11-15: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/935853">Eeva-Maria Jeletsky, Tarmo Niitla: 2015-06-20: 11-17: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/950388">Eeva-Maria Jeletsky, Tarmo Niitla: 2015-08-11: 20-37: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/951766">Eeva-Maria Jeletsky, Tarmo Niitla: 2015-08-11: 20-37: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1045606">Meeli Mesipuu, Liina Oja: 2015-04-25: 06-44: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1136070">Rein Kalamees, Eerik Leibak: 2016-06-13: 17-43: GPS punkt</a></li>
-        </ol>
-        
+             <p>Kaardile koondatud taksonid: <em>Abies alba Mill.</em></p>
+             <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
+             <div class="figure">
+             <img src="../images/Abies_alba.png" />
+             
+             </div>
+             <p><a href="../posts/Xanthium_strumarium.html" id="prevLink">eelmine</a> | <a href="../posts/Abies_balsamea.html" id="nextLink">järgmine</a></p>
+             <p>Kaart põhineb <strong>12</strong> <span style="background-color:#FFFF00">vaatlusel</span>. Taime on leitud <strong>6</strong> ruudust.</p>
+             <div id="obs_table">
+             <p><label for="table_filter_input">Ruudu filter</label></p>
+             <p><input type="text" id="table_filter_input" oninput="filterTable()" placeholder="Filtreeri ruudu järgi"></p>
+             <table>
+             <thead>
+             <tr class="header">
+             <th align="center">Ruut</th>
+             <th align="left">Vaatleja(d)</th>
+             <th align="center">Vaatlusaeg</th>
+             <th align="center">Kirje tüüp</th>
+             <th align="center">Viide andmebaasikirjele</th>
+             </tr>
+             </thead>
+             <tbody>
+             <tr class="odd">
+             <td align="center">12-39</td>
+             <td align="left">Thea Kull, Meeli Mesipuu</td>
+             <td align="center">2015-04-16</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/882218">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">11-15</td>
+             <td align="left">Eeva-Maria Jeletsky, Tarmo Niitla</td>
+             <td align="center">2015-06-27</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/934211">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">11-15</td>
+             <td align="left">Eeva-Maria Jeletsky, Tarmo Niitla</td>
+             <td align="center">2015-06-27</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/934212">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">11-15</td>
+             <td align="left">Eeva-Maria Jeletsky, Tarmo Niitla</td>
+             <td align="center">2015-06-27</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/934213">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">11-15</td>
+             <td align="left">Eeva-Maria Jeletsky, Tarmo Niitla</td>
+             <td align="center">2015-06-27</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/934231">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">11-17</td>
+             <td align="left">Eeva-Maria Jeletsky, Tarmo Niitla</td>
+             <td align="center">2015-06-20</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/934330">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">11-15</td>
+             <td align="left">Eeva-Maria Jeletsky, Tarmo Niitla</td>
+             <td align="center">2015-06-27</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/934906">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">11-17</td>
+             <td align="left">Eeva-Maria Jeletsky, Tarmo Niitla</td>
+             <td align="center">2015-06-20</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/935853">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">20-37</td>
+             <td align="left">Eeva-Maria Jeletsky, Tarmo Niitla</td>
+             <td align="center">2015-08-11</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/950388">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">20-37</td>
+             <td align="left">Eeva-Maria Jeletsky, Tarmo Niitla</td>
+             <td align="center">2015-08-11</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/951766">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">06-44</td>
+             <td align="left">Meeli Mesipuu, Liina Oja</td>
+             <td align="center">2015-04-25</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1045606">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">17-43</td>
+             <td align="left">Rein Kalamees, Eerik Leibak</td>
+             <td align="center">2016-06-13</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1136070">vaata PlutoFis</a></td>
+             </tr>
+             </tbody>
+             </table>
+             </div>        
     </div>
 </div>
 </body>

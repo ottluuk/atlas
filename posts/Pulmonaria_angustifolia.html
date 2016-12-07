@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Eesti taimede uue levikuatlase tööversioon - Pulmonaria angustifolia</title>
 <link rel="stylesheet" type="text/css" href="../css/default.css" />
+<script type="text/javascript" src="https://ottluuk.github.io/atlas/js/mapdetails.js" ></script>
 </head>
 <body>
 <div id="container">        
@@ -25,30 +26,96 @@
     <div id="content">
         <h1>Pulmonaria angustifolia</h1>
         <div class="info">
-            Uuendatud: 2016-12-02
+            Uuendatud: 2016-12-07
         </div>
-
-        <p>Kaardile koondatud taksonid: <em>Pulmonaria angustifolia L.</em></p>
-        <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
-        <div class="figure">
-        <img src="../images/Pulmonaria_angustifolia.png" />
-        
-        </div>
-        <p><a href="../posts/Puccinellia_maritima.html">eelmine</a> | <a href="../posts/Pulmonaria_obscura.html">järgmine</a></p>
-        <p>Kaart põhineb <em>9</em> vaatlusel. Taksonit on leitud <em>2</em> ruudust.</p>
-        <p>Viited andmebaasikirjetele</p>
-        <ol style="list-style-type: decimal">
-        <li><a href="https://plutof.ut.ee/#/observation/view/828636">Meeli Mesipuu, Kadri Tali: 2015-04-30: 17-39: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/828668">Meeli Mesipuu, Kadri Tali: 2015-04-30: 17-39: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/828669">Meeli Mesipuu, Kadri Tali: 2015-04-30: 17-39: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/828670">Meeli Mesipuu, Kadri Tali: 2015-04-30: 17-39: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/828671">Meeli Mesipuu, Kadri Tali: 2015-04-30: 17-39: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/828672">Meeli Mesipuu, Kadri Tali: 2015-04-30: 17-39: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/828674">Meeli Mesipuu, Kadri Tali: 2015-04-30: 17-39: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/828675">Meeli Mesipuu, Kadri Tali: 2015-04-30: 17-39: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1025943">Kadri Tali: 2015-05-01: 17-38: ala</a></li>
-        </ol>
-        
+             <p>Kaardile koondatud taksonid: <em>Pulmonaria angustifolia L.</em></p>
+             <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
+             <div class="figure">
+             <img src="../images/Pulmonaria_angustifolia.png" />
+             
+             </div>
+             <p><a href="../posts/Puccinellia_maritima.html" id="prevLink">eelmine</a> | <a href="../posts/Pulmonaria_obscura.html" id="nextLink">järgmine</a></p>
+             <p>Kaart põhineb <strong>9</strong> <span style="background-color:#FFFF00">vaatlusel</span>. Taime on leitud <strong>2</strong> ruudust.</p>
+             <div id="obs_table">
+             <p><label for="table_filter_input">Ruudu filter</label></p>
+             <p><input type="text" id="table_filter_input" oninput="filterTable()" placeholder="Filtreeri ruudu järgi"></p>
+             <table>
+             <thead>
+             <tr class="header">
+             <th align="center">Ruut</th>
+             <th align="left">Vaatleja(d)</th>
+             <th align="center">Vaatlusaeg</th>
+             <th align="center">Kirje tüüp</th>
+             <th align="center">Viide andmebaasikirjele</th>
+             </tr>
+             </thead>
+             <tbody>
+             <tr class="odd">
+             <td align="center">17-39</td>
+             <td align="left">Meeli Mesipuu, Kadri Tali</td>
+             <td align="center">2015-04-30</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/828636">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">17-39</td>
+             <td align="left">Meeli Mesipuu, Kadri Tali</td>
+             <td align="center">2015-04-30</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/828668">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">17-39</td>
+             <td align="left">Meeli Mesipuu, Kadri Tali</td>
+             <td align="center">2015-04-30</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/828669">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">17-39</td>
+             <td align="left">Meeli Mesipuu, Kadri Tali</td>
+             <td align="center">2015-04-30</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/828670">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">17-39</td>
+             <td align="left">Meeli Mesipuu, Kadri Tali</td>
+             <td align="center">2015-04-30</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/828671">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">17-39</td>
+             <td align="left">Meeli Mesipuu, Kadri Tali</td>
+             <td align="center">2015-04-30</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/828672">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">17-39</td>
+             <td align="left">Meeli Mesipuu, Kadri Tali</td>
+             <td align="center">2015-04-30</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/828674">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">17-39</td>
+             <td align="left">Meeli Mesipuu, Kadri Tali</td>
+             <td align="center">2015-04-30</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/828675">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">17-38</td>
+             <td align="left">Kadri Tali</td>
+             <td align="center">2015-05-01</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1025943">vaata PlutoFis</a></td>
+             </tr>
+             </tbody>
+             </table>
+             </div>        
     </div>
 </div>
 </body>

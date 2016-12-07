@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Eesti taimede uue levikuatlase tööversioon - Potamogeton praelongus</title>
 <link rel="stylesheet" type="text/css" href="../css/default.css" />
+<script type="text/javascript" src="https://ottluuk.github.io/atlas/js/mapdetails.js" ></script>
 </head>
 <body>
 <div id="container">        
@@ -25,41 +26,180 @@
     <div id="content">
         <h1>Potamogeton praelongus</h1>
         <div class="info">
-            Uuendatud: 2016-12-02
+            Uuendatud: 2016-12-07
         </div>
-
-        <p>Kaardile koondatud taksonid: <em>Potamogeton praelongus Wulfen</em></p>
-        <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
-        <div class="figure">
-        <img src="../images/Potamogeton_praelongus.png" />
-        
-        </div>
-        <p><a href="../posts/Potamogeton_perfoliatus.html">eelmine</a> | <a href="../posts/Potamogeton_pusillus.html">järgmine</a></p>
-        <p>Kaart põhineb <em>20</em> kirjel, neist vaatlusi <em>19</em> ja eksemplare <em>1</em>. Taksonit on leitud <em>17</em> ruudust.</p>
-        <p>Viited andmebaasikirjetele</p>
-        <ol style="list-style-type: decimal">
-        <li><a href="https://plutof.ut.ee/#/observation/view/890964">Katrit Karus, Tõnu Feldmann: 2015-07-27: 20-45: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/891046">Katrit Karus, Tõnu Feldmann: 2015-07-28: 20-41: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/891076">Tõnu Feldmann, Katrit Karus: 2015-07-28: 20-41: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/893251">Tõnu Feldmann, Katrit Karus: 2015-07-27: 19-45: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/893920">Tõnu Feldmann, Katrit Karus: 2015-07-31: 16-33: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/893979">Tõnu Feldmann, Katrit Karus: 2015-07-31: 16-32: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/894091">Katrit Karus, Tõnu Feldmann: 2015-07-31: 15-32: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/902137">Katrit Karus, Tõnu Feldmann: 2015-08-04: 06-32: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/902285">Katrit Karus, Tõnu Feldmann: 2015-08-04: 05-31: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/970848">Maria Abakumova, Helle Mäemets: 2015-05-27: 17-34: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/999074">Maria Abakumova, Helle Mäemets: 2015-05-27: 17-34: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1021291">Kadi Palmik, Helle Mäemets: 2015-08-13: 18-41: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1021614">Kadi Palmik, Helle Mäemets: 2015-07-24: 17-41: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1031462">Kadi Palmik, Helle Mäemets: 2015-08-14: 15-33: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1031618">Kadi Palmik, Helle Mäemets: 2015-08-13: 19-41: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1031688">Kadi Palmik, Helle Mäemets: 2015-07-24: 12-41: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1174442">Helle Mäemets, Mare Leis, Jaak-Albert Metsoja: 2015-07-05: 15-36: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1266804">Helle Mäemets, Tiina Elvisto: 2016-07-06: 10-24: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1266865">Helle Mäemets, Tiina Elvisto: 2016-07-06: 10-24: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/specimen/view/992229">Peedu Saar: 2015-08-11: 13-41: GPS punkt</a></li>
-        </ol>
-        
+             <p>Kaardile koondatud taksonid: <em>Potamogeton praelongus Wulfen</em></p>
+             <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
+             <div class="figure">
+             <img src="../images/Potamogeton_praelongus.png" />
+             
+             </div>
+             <p><a href="../posts/Potamogeton_perfoliatus.html" id="prevLink">eelmine</a> | <a href="../posts/Potamogeton_pusillus.html" id="nextLink">järgmine</a></p>
+             <p>Kaart põhineb <strong>20</strong> kirjel, neist <span style="background-color:#FFFF00">vaatlusi</span> <strong>19</strong> ja <span style="background-color:#ADFF2F">eksemplare</span> <strong>1</strong>. Taksonit on leitud <strong>17</strong> ruudust.</p>
+             <div id="obs_table">
+             <p><label for="table_filter_input">Ruudu filter</label></p>
+             <p><input type="text" id="table_filter_input" oninput="filterTable()" placeholder="Filtreeri ruudu järgi"></p>
+             <table style="width:49%;">
+             <colgroup>
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             </colgroup>
+             <thead>
+             <tr class="header">
+             <th align="center">Ruut</th>
+             <th align="left">Vaatleja(d)</th>
+             <th align="center">Vaatlusaeg</th>
+             <th align="center">Kirje tüüp</th>
+             <th align="center">Viide andmebaasikirjele</th>
+             </tr>
+             </thead>
+             <tbody>
+             <tr class="odd">
+             <td align="center">20-45</td>
+             <td align="left">Katrit Karus, Tõnu Feldmann</td>
+             <td align="center">2015-07-27</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/890964">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">20-41</td>
+             <td align="left">Katrit Karus, Tõnu Feldmann</td>
+             <td align="center">2015-07-28</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/891046">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">20-41</td>
+             <td align="left">Tõnu Feldmann, Katrit Karus</td>
+             <td align="center">2015-07-28</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/891076">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">19-45</td>
+             <td align="left">Tõnu Feldmann, Katrit Karus</td>
+             <td align="center">2015-07-27</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/893251">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">16-33</td>
+             <td align="left">Tõnu Feldmann, Katrit Karus</td>
+             <td align="center">2015-07-31</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/893920">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">16-32</td>
+             <td align="left">Tõnu Feldmann, Katrit Karus</td>
+             <td align="center">2015-07-31</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/893979">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">15-32</td>
+             <td align="left">Katrit Karus, Tõnu Feldmann</td>
+             <td align="center">2015-07-31</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/894091">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">06-32</td>
+             <td align="left">Katrit Karus, Tõnu Feldmann</td>
+             <td align="center">2015-08-04</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/902137">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">05-31</td>
+             <td align="left">Katrit Karus, Tõnu Feldmann</td>
+             <td align="center">2015-08-04</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/902285">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">17-34</td>
+             <td align="left">Maria Abakumova, Helle Mäemets</td>
+             <td align="center">2015-05-27</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/970848">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">17-34</td>
+             <td align="left">Maria Abakumova, Helle Mäemets</td>
+             <td align="center">2015-05-27</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/999074">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">18-41</td>
+             <td align="left">Kadi Palmik, Helle Mäemets</td>
+             <td align="center">2015-08-13</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1021291">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">17-41</td>
+             <td align="left">Kadi Palmik, Helle Mäemets</td>
+             <td align="center">2015-07-24</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1021614">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">15-33</td>
+             <td align="left">Kadi Palmik, Helle Mäemets</td>
+             <td align="center">2015-08-14</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1031462">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">19-41</td>
+             <td align="left">Kadi Palmik, Helle Mäemets</td>
+             <td align="center">2015-08-13</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1031618">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">12-41</td>
+             <td align="left">Kadi Palmik, Helle Mäemets</td>
+             <td align="center">2015-07-24</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1031688">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">15-36</td>
+             <td align="left">Helle Mäemets, Mare Leis, Jaak-Albert Metsoja</td>
+             <td align="center">2015-07-05</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1174442">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">10-24</td>
+             <td align="left">Helle Mäemets, Tiina Elvisto</td>
+             <td align="center">2016-07-06</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1266804">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">10-24</td>
+             <td align="left">Helle Mäemets, Tiina Elvisto</td>
+             <td align="center">2016-07-06</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1266865">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">13-41</td>
+             <td align="left">Peedu Saar</td>
+             <td align="center">2015-08-11</td>
+             <td align="center">eksemplar</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/specimen/view/992229">vaata PlutoFis</a></td>
+             </tr>
+             </tbody>
+             </table>
+             </div>        
     </div>
 </div>
 </body>

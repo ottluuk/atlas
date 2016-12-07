@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Eesti taimede uue levikuatlase tööversioon - Puccinellia maritima</title>
 <link rel="stylesheet" type="text/css" href="../css/default.css" />
+<script type="text/javascript" src="https://ottluuk.github.io/atlas/js/mapdetails.js" ></script>
 </head>
 <body>
 <div id="container">        
@@ -25,35 +26,131 @@
     <div id="content">
         <h1>Puccinellia maritima</h1>
         <div class="info">
-            Uuendatud: 2016-12-02
+            Uuendatud: 2016-12-07
         </div>
-
-        <p>Kaardile koondatud taksonid: <em>Puccinellia maritima (Huds.) Parl.</em></p>
-        <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
-        <div class="figure">
-        <img src="../images/Puccinellia_maritima.png" />
-        
-        </div>
-        <p><a href="../posts/Puccinellia_distans_subsp_borealis.html">eelmine</a> | <a href="../posts/Pulmonaria_angustifolia.html">järgmine</a></p>
-        <p>Kaart põhineb <em>14</em> vaatlusel. Taksonit on leitud <em>13</em> ruudust.</p>
-        <p>Viited andmebaasikirjetele</p>
-        <ol style="list-style-type: decimal">
-        <li><a href="https://plutof.ut.ee/#/observation/view/858465">Peedu Saar, Liina Oja: 2015-07-20: 08-44: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/872737">Toomas Kukk: 2014-06-18: 18-15: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/933436">Eeva-Maria Jeletsky, Tarmo Niitla: 2015-06-26: 10-12: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/935559">Eeva-Maria Jeletsky, Tarmo Niitla: 2015-06-17: 11-17: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/935795">Eeva-Maria Jeletsky, Tarmo Niitla: 2015-06-20: 11-17: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/938736">Eeva-Maria Jeletsky, Tarmo Niitla: 2015-06-17: 11-18: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/938913">Eeva-Maria Jeletsky, Tarmo Niitla: 2015-06-25: 12-14: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/939943">Eeva-Maria Jeletsky, Tarmo Niitla: 2015-06-21: 12-16: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/949718">Mari Reitalu: 2015-05-22: 16-11: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/983605">Mari Reitalu, Triin Reitalu: 2015-07-22: 17-12: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/995298">Mari Reitalu, Triin Reitalu: 2015-08-05: 17-11: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/998852">Sirje Azarov, Mari Reitalu: 2015-06-22: 16-10: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1056832">Hanna-Eliisa Luts, Tõnu Ploompuu: 2015-08-13: 11-21: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1061172">Hanna-Eliisa Luts, Tõnu Ploompuu: 2015-08-13: 11-20: ala</a></li>
-        </ol>
-        
+             <p>Kaardile koondatud taksonid: <em>Puccinellia maritima (Huds.) Parl.</em></p>
+             <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
+             <div class="figure">
+             <img src="../images/Puccinellia_maritima.png" />
+             
+             </div>
+             <p><a href="../posts/Puccinellia_distans_subsp_borealis.html" id="prevLink">eelmine</a> | <a href="../posts/Pulmonaria_angustifolia.html" id="nextLink">järgmine</a></p>
+             <p>Kaart põhineb <strong>14</strong> <span style="background-color:#FFFF00">vaatlusel</span>. Taime on leitud <strong>13</strong> ruudust.</p>
+             <div id="obs_table">
+             <p><label for="table_filter_input">Ruudu filter</label></p>
+             <p><input type="text" id="table_filter_input" oninput="filterTable()" placeholder="Filtreeri ruudu järgi"></p>
+             <table>
+             <thead>
+             <tr class="header">
+             <th align="center">Ruut</th>
+             <th align="left">Vaatleja(d)</th>
+             <th align="center">Vaatlusaeg</th>
+             <th align="center">Kirje tüüp</th>
+             <th align="center">Viide andmebaasikirjele</th>
+             </tr>
+             </thead>
+             <tbody>
+             <tr class="odd">
+             <td align="center">08-44</td>
+             <td align="left">Peedu Saar, Liina Oja</td>
+             <td align="center">2015-07-20</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/858465">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">18-15</td>
+             <td align="left">Toomas Kukk</td>
+             <td align="center">2014-06-18</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/872737">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">10-12</td>
+             <td align="left">Eeva-Maria Jeletsky, Tarmo Niitla</td>
+             <td align="center">2015-06-26</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/933436">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">11-17</td>
+             <td align="left">Eeva-Maria Jeletsky, Tarmo Niitla</td>
+             <td align="center">2015-06-17</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/935559">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">11-17</td>
+             <td align="left">Eeva-Maria Jeletsky, Tarmo Niitla</td>
+             <td align="center">2015-06-20</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/935795">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">11-18</td>
+             <td align="left">Eeva-Maria Jeletsky, Tarmo Niitla</td>
+             <td align="center">2015-06-17</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/938736">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">12-14</td>
+             <td align="left">Eeva-Maria Jeletsky, Tarmo Niitla</td>
+             <td align="center">2015-06-25</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/938913">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">12-16</td>
+             <td align="left">Eeva-Maria Jeletsky, Tarmo Niitla</td>
+             <td align="center">2015-06-21</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/939943">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">16-11</td>
+             <td align="left">Mari Reitalu</td>
+             <td align="center">2015-05-22</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/949718">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">17-12</td>
+             <td align="left">Mari Reitalu, Triin Reitalu</td>
+             <td align="center">2015-07-22</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/983605">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">17-11</td>
+             <td align="left">Mari Reitalu, Triin Reitalu</td>
+             <td align="center">2015-08-05</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/995298">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">16-10</td>
+             <td align="left">Sirje Azarov, Mari Reitalu</td>
+             <td align="center">2015-06-22</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/998852">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">11-21</td>
+             <td align="left">Hanna-Eliisa Luts, Tõnu Ploompuu</td>
+             <td align="center">2015-08-13</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1056832">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">11-20</td>
+             <td align="left">Hanna-Eliisa Luts, Tõnu Ploompuu</td>
+             <td align="center">2015-08-13</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1061172">vaata PlutoFis</a></td>
+             </tr>
+             </tbody>
+             </table>
+             </div>        
     </div>
 </div>
 </body>

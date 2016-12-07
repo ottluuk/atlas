@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Eesti taimede uue levikuatlase tööversioon - Euphorbia esula</title>
 <link rel="stylesheet" type="text/css" href="../css/default.css" />
+<script type="text/javascript" src="https://ottluuk.github.io/atlas/js/mapdetails.js" ></script>
 </head>
 <body>
 <div id="container">        
@@ -25,41 +26,918 @@
     <div id="content">
         <h1>Euphorbia esula</h1>
         <div class="info">
-            Uuendatud: 2016-12-02
+            Uuendatud: 2016-12-07
         </div>
-
-        <p>Kaardile koondatud taksonid: <em>Euphorbia esula L.; Euphorbia esula subsp. esula L.</em></p>
-        <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
-        <div class="figure">
-        <img src="../images/Euphorbia_esula.png" />
-        
-        </div>
-        <p><a href="../posts/Euphorbia_cyparissias.html">eelmine</a> | <a href="../posts/Euphorbia_helioscopia.html">järgmine</a></p>
-        <p>Kaart põhineb <em>126</em> kirjel, neist vaatlusi <em>125</em> ja eksemplare <em>1</em>. Taksonit on leitud <em>97</em> ruudust.</p>
-        <p>Kuvatud viited 20 esimesele andmebaasikirjele, ülejäänud PlutoFis</p>
-        <ol style="list-style-type: decimal">
-        <li><a href="https://plutof.ut.ee/#/observation/view/824229">Malle Leht: 2015-05-16: : ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/832917">Malle Leht: 2015-08-02: : ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/838065">Toomas Kukk, Peedu Saar: 2014-09-25: 07-42: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/841826">Rein Kalamees: 2015-09-03: 05-32: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/845931">Peedu Saar, Ott Luuk: 2015-06-21: 14-41: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/850302">Tiit Hallikma, Toomas Kukk: 2015-07-22: 05-49: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/857688">Peedu Saar, Sander Laherand: 2015-06-01: 06-41: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/858303">Peedu Saar, Liina Oja: 2015-07-20: 08-44: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/858670">Peedu Saar, Liina Oja: 2015-07-21: 06-44: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/860094">Malle Leht: 2015-07-25: 18-40: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/861568">Malle Leht: 2015-07-28: : ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/861972">Malle Leht: 2015-07-27: 18-40: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/862502">Malle Leht: 2015-07-08: : ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/864112">Peedu Saar, Liina Oja: 2015-07-24: 09-45: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/869224">Peedu Saar, Eerik Leibak: 2015-08-16: 12-40: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/878794">Rein Kalamees, Kersti Püssa: 2015-09-12: 04-33: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/885221">Rein Kalamees, Kersti Püssa: 2015-09-13: 06-31: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/885605">Rein Kalamees, Kersti Püssa: 2015-09-13: 06-32: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/892143">Peedu Saar: 2015-08-22: 11-41: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/898054">Ott Luuk, Hannes Pehlak: 2015-07-21: 06-48: ala</a></li>
-        </ol>
-        
+             <p>Kaardile koondatud taksonid: <em>Euphorbia esula L.; Euphorbia esula subsp. esula L.</em></p>
+             <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
+             <div class="figure">
+             <img src="../images/Euphorbia_esula.png" />
+             
+             </div>
+             <p><a href="../posts/Euphorbia_cyparissias.html" id="prevLink">eelmine</a> | <a href="../posts/Euphorbia_helioscopia.html" id="nextLink">järgmine</a></p>
+             <p>Kaart põhineb <strong>126</strong> kirjel, neist <span style="background-color:#FFFF00">vaatlusi</span> <strong>125</strong> ja <span style="background-color:#ADFF2F">eksemplare</span> <strong>1</strong>. Taksonit on leitud <strong>97</strong> ruudust.</p>
+             <div id="obs_table">
+             <p><label for="table_filter_input">Ruudu filter</label></p>
+             <p><input type="text" id="table_filter_input" oninput="filterTable()" placeholder="Filtreeri ruudu järgi"></p>
+             <table style="width:49%;">
+             <colgroup>
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             </colgroup>
+             <thead>
+             <tr class="header">
+             <th align="center">Ruut</th>
+             <th align="left">Vaatleja(d)</th>
+             <th align="center">Vaatlusaeg</th>
+             <th align="center">Kirje tüüp</th>
+             <th align="center">Viide andmebaasikirjele</th>
+             </tr>
+             </thead>
+             <tbody>
+             <tr class="odd">
+             <td align="center">Malle Leht</td>
+             <td align="left">2015-05-16</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/824229">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">Malle Leht</td>
+             <td align="left">2015-08-02</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/832917">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">07-42</td>
+             <td align="left">Toomas Kukk, Peedu Saar</td>
+             <td align="center">2014-09-25</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/838065">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">05-32</td>
+             <td align="left">Rein Kalamees</td>
+             <td align="center">2015-09-03</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/841826">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">14-41</td>
+             <td align="left">Peedu Saar, Ott Luuk</td>
+             <td align="center">2015-06-21</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/845931">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">05-49</td>
+             <td align="left">Tiit Hallikma, Toomas Kukk</td>
+             <td align="center">2015-07-22</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/850302">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">06-41</td>
+             <td align="left">Peedu Saar, Sander Laherand</td>
+             <td align="center">2015-06-01</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/857688">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">08-44</td>
+             <td align="left">Peedu Saar, Liina Oja</td>
+             <td align="center">2015-07-20</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/858303">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">06-44</td>
+             <td align="left">Peedu Saar, Liina Oja</td>
+             <td align="center">2015-07-21</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/858670">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">18-40</td>
+             <td align="left">Malle Leht</td>
+             <td align="center">2015-07-25</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/860094">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">Malle Leht</td>
+             <td align="left">2015-07-28</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/861568">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">18-40</td>
+             <td align="left">Malle Leht</td>
+             <td align="center">2015-07-27</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/861972">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">Malle Leht</td>
+             <td align="left">2015-07-08</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/862502">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">09-45</td>
+             <td align="left">Peedu Saar, Liina Oja</td>
+             <td align="center">2015-07-24</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/864112">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">12-40</td>
+             <td align="left">Peedu Saar, Eerik Leibak</td>
+             <td align="center">2015-08-16</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/869224">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">04-33</td>
+             <td align="left">Rein Kalamees, Kersti Püssa</td>
+             <td align="center">2015-09-12</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/878794">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">06-31</td>
+             <td align="left">Rein Kalamees, Kersti Püssa</td>
+             <td align="center">2015-09-13</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/885221">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">06-32</td>
+             <td align="left">Rein Kalamees, Kersti Püssa</td>
+             <td align="center">2015-09-13</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/885605">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">11-41</td>
+             <td align="left">Peedu Saar</td>
+             <td align="center">2015-08-22</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/892143">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">06-48</td>
+             <td align="left">Ott Luuk, Hannes Pehlak</td>
+             <td align="center">2015-07-21</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/898054">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">16-17</td>
+             <td align="left">Meeli Mesipuu, Kadri Tali</td>
+             <td align="center">2015-07-06</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/901514">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">16-18</td>
+             <td align="left">Meeli Mesipuu, Kadri Tali</td>
+             <td align="center">2015-07-06</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/902378">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">17-40</td>
+             <td align="left">Thea Kull, Peedu Saar</td>
+             <td align="center">2015-06-19</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/902856">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">13-17</td>
+             <td align="left">Meeli Mesipuu, Kadri Tali</td>
+             <td align="center">2015-07-08</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/903622">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">14-16</td>
+             <td align="left">Toomas Kukk, Thea Kull, Ott Luuk, Peedu Saar</td>
+             <td align="center">2014-06-27</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/905356">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">06-45</td>
+             <td align="left">Thea Kull, Eerik Leibak</td>
+             <td align="center">2015-07-20</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/913581">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">08-46</td>
+             <td align="left">Thea Kull, Eerik Leibak</td>
+             <td align="center">2015-07-23</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/917524">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">09-35</td>
+             <td align="left">Jana-Maria Habicht, Ester Valdvee, Kirke Pilvik, Anu Nurk</td>
+             <td align="center">2015-07-30</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/924178">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">09-36</td>
+             <td align="left">Jana-Maria Habicht, Ester Valdvee</td>
+             <td align="center">2015-08-15</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/925010">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">07-43</td>
+             <td align="left">Meeli Mesipuu, Timo Luhamäe</td>
+             <td align="center">2015-07-22</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/932673">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">22-38</td>
+             <td align="left">Eeva-Maria Jeletsky, Tarmo Niitla</td>
+             <td align="center">2015-07-15</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/940868">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">19-13</td>
+             <td align="left">Oliver Parrest</td>
+             <td align="center">2015-07-01</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/943877">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">11-37</td>
+             <td align="left">Ülle Jõgar, Illi Tarmu, K. Rünk</td>
+             <td align="center">2015-07-24</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/951218">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">05-28</td>
+             <td align="left">Erkki Otsman, Sergei Smirnov</td>
+             <td align="center">2015-06-26</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/954622">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">15-19</td>
+             <td align="left">Meeli Mesipuu</td>
+             <td align="center">2015-06-21</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/959306">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">14-20</td>
+             <td align="left">Meeli Mesipuu, Kadri Tali</td>
+             <td align="center">2015-06-26</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/966641">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">14-20</td>
+             <td align="left">Meeli Mesipuu, Kadri Tali</td>
+             <td align="center">2015-06-26</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/966705">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">16-12</td>
+             <td align="left">Mari Reitalu</td>
+             <td align="center">2015-06-16</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/967022">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">15-13</td>
+             <td align="left">Mari Reitalu, Oliver Parrest</td>
+             <td align="center">2015-07-24</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/980639">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">15-11</td>
+             <td align="left">Mari Reitalu, Oliver Parrest</td>
+             <td align="center">2015-07-16</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/986425">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">12-38</td>
+             <td align="left">Ulvi Selgis</td>
+             <td align="center">2015-08-09</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/989630">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">16-11</td>
+             <td align="left">Mari Reitalu, Triin Reitalu</td>
+             <td align="center">2015-05-28</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/991469">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">17-11</td>
+             <td align="left">Mari Reitalu, Triin Reitalu</td>
+             <td align="center">2015-08-05</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/995053">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">16-12</td>
+             <td align="left">Mari Reitalu</td>
+             <td align="center">2015-07-08</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/995740">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">10-25</td>
+             <td align="left">Aat Sarv</td>
+             <td align="center">2015-05-31</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1006958">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">07-44</td>
+             <td align="left">Timo Luhamäe, Eerik Leibak</td>
+             <td align="center">2015-05-30</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1008976">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">07-42</td>
+             <td align="left">Mari Metsoja, Jaak-Albert Metsoja</td>
+             <td align="center">2015-07-23</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1014813">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">06-42</td>
+             <td align="left">Mari Metsoja, Jaak-Albert Metsoja</td>
+             <td align="center">2015-07-21</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1016825">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">06-24</td>
+             <td align="left">Mari Metsoja, Jaak-Albert Metsoja</td>
+             <td align="center">2015-07-31</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1018749">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">06-26</td>
+             <td align="left">Mari Metsoja, Jaak-Albert Metsoja</td>
+             <td align="center">2015-07-29</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1019268">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">05-42</td>
+             <td align="left">Kaili Orav, Silvia Pihu</td>
+             <td align="center">2015-06-18</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1029690">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">05-41</td>
+             <td align="left">Kaili Orav, Silvia Pihu</td>
+             <td align="center">2015-06-18</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1030208">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">05-39</td>
+             <td align="left">Kaili Orav, Silvia Pihu</td>
+             <td align="center">2015-06-19</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1030931">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">09-26</td>
+             <td align="left">Peedu Saar, Kersti Püssa, Rein Kalamees, Toomas Kukk</td>
+             <td align="center">2014-06-11</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1045303">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">09-26</td>
+             <td align="left">Peedu Saar, Kersti Püssa, Rein Kalamees, Toomas Kukk</td>
+             <td align="center">2014-06-11</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1045419">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">09-26</td>
+             <td align="left">Peedu Saar, Kersti Püssa, Rein Kalamees, Toomas Kukk</td>
+             <td align="center">2014-06-11</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1045423">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">14-35</td>
+             <td align="left">Aat Sarv</td>
+             <td align="center">2015-05-22</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1046725">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">09-26</td>
+             <td align="left">Thea Kull, Meeli Mesipuu, Eerik Leibak</td>
+             <td align="center">2014-06-11</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1049074">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">09-25</td>
+             <td align="left">Thea Kull, Meeli Mesipuu, Eerik Leibak</td>
+             <td align="center">2014-06-11</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1049244">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">10-26</td>
+             <td align="left">Jaak-Albert Metsoja, Ott Luuk, Maret Gerz</td>
+             <td align="center">2014-06-11</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1050925">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">06-26</td>
+             <td align="left">Peedu Saar, Ott Luuk</td>
+             <td align="center">2014-09-03</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1051451">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">10-27</td>
+             <td align="left">Aat Sarv</td>
+             <td align="center">2015-07-02</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1065451">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">06-27</td>
+             <td align="left">Tõnu Ploompuu</td>
+             <td align="center">2015-08-11</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1073395">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">10-20</td>
+             <td align="left">Toomas Kukk, Peedu Saar</td>
+             <td align="center">2016-05-12</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1083234">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">09-25</td>
+             <td align="left">Meelis Muuga, Tõnu Ploompuu</td>
+             <td align="center">2015-08-17</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1091169">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">09-21</td>
+             <td align="left">Kadi-Liis Kesler, Tõnu Ploompuu</td>
+             <td align="center">2015-07-14</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1094079">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">06-28</td>
+             <td align="left">Tõnu Ploompuu</td>
+             <td align="center">2015-06-06</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1095706">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">06-28</td>
+             <td align="left">Toomas Kukk</td>
+             <td align="center">2016-06-02</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1100541">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">10-21</td>
+             <td align="left">Tõnu Ploompuu</td>
+             <td align="center">2015-08-21</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1105102">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">13-43</td>
+             <td align="left">Kai Rünk, Ülle Jõgar, Illi Tarmu</td>
+             <td align="center">2016-06-10T06:30Z</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1107962">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">08-46</td>
+             <td align="left">Indrek Tammekänd</td>
+             <td align="center">2016-05-29</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1132897">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">11-38</td>
+             <td align="left">Eeva-Maria Jeletsky, Tarmo Niitla</td>
+             <td align="center">2016-06-09</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1139902">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">20-44</td>
+             <td align="left">Peedu Saar, Tarmo Niitla</td>
+             <td align="center">2016-06-15</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1158987">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">19-41</td>
+             <td align="left">Vivika Väli, Ülo Väli</td>
+             <td align="center">2015-06-20</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1163381">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">06-24</td>
+             <td align="left">Thea Kull, Helle Mäemets</td>
+             <td align="center">2016-07-07</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1170072">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">09-25</td>
+             <td align="left">Thea Kull, Oliver Parrest</td>
+             <td align="center">2016-07-06</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1171172">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">06-26</td>
+             <td align="left">Tiina Elvisto, Eerik Leibak</td>
+             <td align="center">2016-07-04</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1174351">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">10-18</td>
+             <td align="left">Sander Laherand, Toomas Kukk</td>
+             <td align="center">2016-07-07</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1181224">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">05-37</td>
+             <td align="left">Tõnu Ploompuu, Eerik Leibak</td>
+             <td align="center">2016-07-27</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1194221">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">05-38</td>
+             <td align="left">Tõnu Ploompuu, Eerik Leibak</td>
+             <td align="center">2016-07-27</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1194317">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">05-47</td>
+             <td align="left">Erkki Otsman, Sergei Smirnov</td>
+             <td align="center">2016-06-16</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1204015">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">05-46</td>
+             <td align="left">Erkki Otsman, Sergei Smirnov</td>
+             <td align="center">2016-06-17</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1204339">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">14-14</td>
+             <td align="left">Peedu Saar, Maret Gerz</td>
+             <td align="center">2016-08-12</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1211486">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">11-17</td>
+             <td align="left">Maret Gerz, Meeli Mesipuu</td>
+             <td align="center">2016-08-08</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1223547">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">06-28</td>
+             <td align="left">Erkki Otsman, Sergei Smirnov</td>
+             <td align="center">2016-07-14</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1225938">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">06-30</td>
+             <td align="left">Toomas Kukk, Sander Laherand</td>
+             <td align="center">2016-08-30</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1234066">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">05-32</td>
+             <td align="left">Toomas Kukk, Sander Laherand</td>
+             <td align="center">2016-08-31</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1237089">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">17-16</td>
+             <td align="left">Toomas Kukk, Meeli Mesipuu</td>
+             <td align="center">2016-08-12</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1240367">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">04-29</td>
+             <td align="left">Sander Laherand, Tõnu Ploompuu, Nele Jõessar</td>
+             <td align="center">2016-07-25</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1241386">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">13-28</td>
+             <td align="left">Indrek Tammekänd</td>
+             <td align="center">2016-08-31</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1244004">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">07-30</td>
+             <td align="left">Toomas Kukk, Peedu Saar</td>
+             <td align="center">2016-09-09</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1246905">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">06-32</td>
+             <td align="left">Toomas Kukk, Peedu Saar</td>
+             <td align="center">2016-09-08</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1247223">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">07-35</td>
+             <td align="left">Toomas Kukk, Sander Laherand, Nele Jõessar</td>
+             <td align="center">2016-07-27</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1247561">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">05-28</td>
+             <td align="left">Toomas Kukk, Peedu Saar</td>
+             <td align="center">2016-08-03</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1248150">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">09-19</td>
+             <td align="left">Rein Kalamees, Liina Oja</td>
+             <td align="center">2016-07-07</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1248506">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">21-19</td>
+             <td align="left">Meeli Mesipuu, Ott Luuk</td>
+             <td align="center">2016-09-10</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1248911">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">05-31</td>
+             <td align="left">Sander Laherand, Toomas Kukk</td>
+             <td align="center">2016-08-30</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1251647">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">06-33</td>
+             <td align="left">Peedu Saar, Toomas Kukk</td>
+             <td align="center">2016-09-14</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1252089">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">05-43</td>
+             <td align="left">Peedu Saar, Toomas Kukk</td>
+             <td align="center">2016-09-13</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1252509">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">14-18</td>
+             <td align="left">Mari Reitalu, Sirje Azarov</td>
+             <td align="center">2016-08-09</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1256834">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">14-20</td>
+             <td align="left">Mari Reitalu, Sirje Azarov</td>
+             <td align="center">2016-08-17</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1258464">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">19-13</td>
+             <td align="left">Mari Reitalu, Sirje Azarov</td>
+             <td align="center">2016-07-31</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1260351">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">20-12</td>
+             <td align="left">Mari Reitalu, Sirje Azarov</td>
+             <td align="center">2016-08-08</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1260626">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">09-28</td>
+             <td align="left">Rein Kalamees, Liina Oja</td>
+             <td align="center">2016-07-06</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1261504">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">07-32</td>
+             <td align="left">Rein Kalamees, Kersti Püssa</td>
+             <td align="center">2016-06-23</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1262086">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">09-46</td>
+             <td align="left">Rein Kalamees, Kersti Püssa</td>
+             <td align="center">2016-06-28</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1266055">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">18-24</td>
+             <td align="left">Peedu Saar, Ott Luuk</td>
+             <td align="center">2016-09-21</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1267347">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">16-16</td>
+             <td align="left">Meeli Mesipuu</td>
+             <td align="center">2016-09-25</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1269902">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">07-25</td>
+             <td align="left">Helle Mäemets, Tiina Elvisto</td>
+             <td align="center">2016-07-05</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1273123">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">16-14</td>
+             <td align="left">Meeli Mesipuu</td>
+             <td align="center">2016-09-26</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1280310">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">21-19</td>
+             <td align="left">Ott Luuk, Meeli Mesipuu</td>
+             <td align="center">2016-09-10</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1281103">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">05-35</td>
+             <td align="left">Peedu Saar, Liina Oja, Susanna Vain</td>
+             <td align="center">2016-07-27</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1284313">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">11-35</td>
+             <td align="left">Peedu Saar, Timo Luhamäe</td>
+             <td align="center">2016-07-21</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1287167">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">15-11</td>
+             <td align="left">Meeli Mesipuu, Toomas Kukk, Mari Reitalu</td>
+             <td align="center">2016-10-07</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1289655">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">14-13</td>
+             <td align="left">Toomas Kukk, Meeli Mesipuu, Mari Reitalu</td>
+             <td align="center">2016-10-06</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1290863">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">14-19</td>
+             <td align="left">Meeli Mesipuu</td>
+             <td align="center">2016-06-29</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1292186">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">07-31</td>
+             <td align="left">Peedu Saar, Toivo Sepp</td>
+             <td align="center">2016-07-18</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1294166">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">10-27</td>
+             <td align="left">Peedu Saar, Timo Luhamäe, Johannes Kõdar</td>
+             <td align="center">2016-07-06</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1298324">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">05-39</td>
+             <td align="left">Ott Luuk, Tiit Hallikma</td>
+             <td align="center">2016-07-28</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1300652">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">12-27</td>
+             <td align="left">Ranno Puumets</td>
+             <td align="center">2015-06-01</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1304823">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">17-15</td>
+             <td align="left">Meeli Mesipuu, Toomas Kukk, Johannes Kõdar</td>
+             <td align="center">2016-08-11</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1332206">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">04-28</td>
+             <td align="left">Kadi-Liis Kesler, Tiina Elvisto</td>
+             <td align="center">2015-08-12</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1332275">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">09-23</td>
+             <td align="left">Jaak-Albert Metsoja, Mari Metsoja</td>
+             <td align="center">2016-07-06</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1349483">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">09-43</td>
+             <td align="left">Hannes Pehlak, Ott Luuk</td>
+             <td align="center">2016-07-29</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1350787">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">16-10</td>
+             <td align="left">Sirje Azarov</td>
+             <td align="center">2016-10-05</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1358045">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">09-35</td>
+             <td align="left">Jana-Maria Habicht</td>
+             <td align="center">2015-07-30</td>
+             <td align="center">eksemplar</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/specimen/view/1013393">vaata PlutoFis</a></td>
+             </tr>
+             </tbody>
+             </table>
+             </div>        
     </div>
 </div>
 </body>

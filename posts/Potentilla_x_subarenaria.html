@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Eesti taimede uue levikuatlase tööversioon - Potentilla x subarenaria</title>
 <link rel="stylesheet" type="text/css" href="../css/default.css" />
+<script type="text/javascript" src="https://ottluuk.github.io/atlas/js/mapdetails.js" ></script>
 </head>
 <body>
 <div id="container">        
@@ -25,36 +26,145 @@
     <div id="content">
         <h1>Potentilla x subarenaria</h1>
         <div class="info">
-            Uuendatud: 2016-12-02
+            Uuendatud: 2016-12-07
         </div>
-
-        <p>Kaardile koondatud taksonid: <em>Potentilla subarenaria Borb. ex Zimmeter; Potentilla x subarenaria Borbás ex Zimmeter</em></p>
-        <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
-        <div class="figure">
-        <img src="../images/Potentilla_x_subarenaria.png" />
-        
-        </div>
-        <p><a href="../posts/Potentilla_reptans.html">eelmine</a> | <a href="../posts/Primula_elatior.html">järgmine</a></p>
-        <p>Kaart põhineb <em>15</em> kirjel, neist vaatlusi <em>10</em> ja eksemplare <em>5</em>. Taksonit on leitud <em>11</em> ruudust.</p>
-        <p>Viited andmebaasikirjetele</p>
-        <ol style="list-style-type: decimal">
-        <li><a href="https://plutof.ut.ee/#/observation/view/835809">Toomas Kukk, Eerik Leibak: 2015-08-09: 14-15: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/839706">Peedu Saar, Toomas Kukk: 2015-05-26: 10-17: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/852199">Toomas Kukk, Peedu Saar: 2014-07-03: 14-21: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1049469">Thea Kull, Meeli Mesipuu, Eerik Leibak: 2014-06-11: 11-26: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1079269">Toomas Kukk, Peedu Saar: 2016-05-06: 11-18: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1083002">Toomas Kukk, Peedu Saar: 2016-05-12: 10-19: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1086118">Toomas Kukk, Peedu Saar: 2016-05-13: 09-19: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1086714">Toomas Kukk, Peedu Saar: 2016-05-13: 09-19: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1210754">Toomas Kukk, Meeli Mesipuu, Johannes Kõdar: 2016-08-11: 17-14: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1238132">Toomas Kukk, Meeli Mesipuu, Johannes Kõdar: 2016-08-11: 17-14: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/specimen/view/981966">Peedu Saar, Toomas Kukk: 2015-05-27: 09-16: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/specimen/view/1071820">Peedu Saar, Maret Gerz: 2016-08-12: 15-14: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/specimen/view/1071852">Peedu Saar, Toomas Kukk: 2016-05-12: 10-19: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/specimen/view/1071866">Peedu Saar, Toomas Kukk: 2016-05-08: 10-16: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/specimen/view/1076081">Peedu Saar, Toomas Kukk: 2016-05-13: 09-19: GPS punkt</a></li>
-        </ol>
-        
+             <p>Kaardile koondatud taksonid: <em>Potentilla subarenaria Borb. ex Zimmeter; Potentilla x subarenaria Borbás ex Zimmeter</em></p>
+             <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
+             <div class="figure">
+             <img src="../images/Potentilla_x_subarenaria.png" />
+             
+             </div>
+             <p><a href="../posts/Potentilla_reptans.html" id="prevLink">eelmine</a> | <a href="../posts/Primula_elatior.html" id="nextLink">järgmine</a></p>
+             <p>Kaart põhineb <strong>15</strong> kirjel, neist <span style="background-color:#FFFF00">vaatlusi</span> <strong>10</strong> ja <span style="background-color:#ADFF2F">eksemplare</span> <strong>5</strong>. Taksonit on leitud <strong>11</strong> ruudust.</p>
+             <div id="obs_table">
+             <p><label for="table_filter_input">Ruudu filter</label></p>
+             <p><input type="text" id="table_filter_input" oninput="filterTable()" placeholder="Filtreeri ruudu järgi"></p>
+             <table style="width:49%;">
+             <colgroup>
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             </colgroup>
+             <thead>
+             <tr class="header">
+             <th align="center">Ruut</th>
+             <th align="left">Vaatleja(d)</th>
+             <th align="center">Vaatlusaeg</th>
+             <th align="center">Kirje tüüp</th>
+             <th align="center">Viide andmebaasikirjele</th>
+             </tr>
+             </thead>
+             <tbody>
+             <tr class="odd">
+             <td align="center">14-15</td>
+             <td align="left">Toomas Kukk, Eerik Leibak</td>
+             <td align="center">2015-08-09</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/835809">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">10-17</td>
+             <td align="left">Peedu Saar, Toomas Kukk</td>
+             <td align="center">2015-05-26</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/839706">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">14-21</td>
+             <td align="left">Toomas Kukk, Peedu Saar</td>
+             <td align="center">2014-07-03</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/852199">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">11-26</td>
+             <td align="left">Thea Kull, Meeli Mesipuu, Eerik Leibak</td>
+             <td align="center">2014-06-11</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1049469">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">11-18</td>
+             <td align="left">Toomas Kukk, Peedu Saar</td>
+             <td align="center">2016-05-06</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1079269">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">10-19</td>
+             <td align="left">Toomas Kukk, Peedu Saar</td>
+             <td align="center">2016-05-12</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1083002">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">09-19</td>
+             <td align="left">Toomas Kukk, Peedu Saar</td>
+             <td align="center">2016-05-13</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1086118">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">09-19</td>
+             <td align="left">Toomas Kukk, Peedu Saar</td>
+             <td align="center">2016-05-13</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1086714">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">17-14</td>
+             <td align="left">Toomas Kukk, Meeli Mesipuu, Johannes Kõdar</td>
+             <td align="center">2016-08-11</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1210754">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">17-14</td>
+             <td align="left">Toomas Kukk, Meeli Mesipuu, Johannes Kõdar</td>
+             <td align="center">2016-08-11</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1238132">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">09-16</td>
+             <td align="left">Peedu Saar, Toomas Kukk</td>
+             <td align="center">2015-05-27</td>
+             <td align="center">eksemplar</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/specimen/view/981966">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">15-14</td>
+             <td align="left">Peedu Saar, Maret Gerz</td>
+             <td align="center">2016-08-12</td>
+             <td align="center">eksemplar</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/specimen/view/1071820">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">10-19</td>
+             <td align="left">Peedu Saar, Toomas Kukk</td>
+             <td align="center">2016-05-12</td>
+             <td align="center">eksemplar</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/specimen/view/1071852">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">10-16</td>
+             <td align="left">Peedu Saar, Toomas Kukk</td>
+             <td align="center">2016-05-08</td>
+             <td align="center">eksemplar</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/specimen/view/1071866">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">09-19</td>
+             <td align="left">Peedu Saar, Toomas Kukk</td>
+             <td align="center">2016-05-13</td>
+             <td align="center">eksemplar</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/specimen/view/1076081">vaata PlutoFis</a></td>
+             </tr>
+             </tbody>
+             </table>
+             </div>        
     </div>
 </div>
 </body>

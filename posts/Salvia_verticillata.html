@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Eesti taimede uue levikuatlase tööversioon - Salvia verticillata</title>
 <link rel="stylesheet" type="text/css" href="../css/default.css" />
+<script type="text/javascript" src="https://ottluuk.github.io/atlas/js/mapdetails.js" ></script>
 </head>
 <body>
 <div id="container">        
@@ -25,28 +26,82 @@
     <div id="content">
         <h1>Salvia verticillata</h1>
         <div class="info">
-            Uuendatud: 2016-12-02
+            Uuendatud: 2016-12-07
         </div>
-
-        <p>Kaardile koondatud taksonid: <em>Salvia verticillata L.</em></p>
-        <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
-        <div class="figure">
-        <img src="../images/Salvia_verticillata.png" />
-        
-        </div>
-        <p><a href="../posts/Salvia_nemorosa.html">eelmine</a> | <a href="../posts/Sambucus_nigra.html">järgmine</a></p>
-        <p>Kaart põhineb <em>7</em> kirjel, neist vaatlusi <em>3</em> ja eksemplare <em>4</em>. Taksonit on leitud <em>5</em> ruudust.</p>
-        <p>Viited andmebaasikirjetele</p>
-        <ol style="list-style-type: decimal">
-        <li><a href="https://plutof.ut.ee/#/observation/view/867748">Peedu Saar: 2015-08-11: 13-41: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1014942">Mari Metsoja, Jaak-Albert Metsoja: 2015-07-23: 07-42: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1071486">Hanna-Eliisa Luts, Tõnu Ploompuu: 2015-07-28: 11-26: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/specimen/view/980850">Peedu Saar: 2015-08-11: 13-41: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/specimen/view/1006287">Ott Luuk: 2013-06-19: 11-28: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/specimen/view/1006288">Ott Luuk: 2013-06-19: 11-28: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/specimen/view/1073899">Peedu Saar, Tarmo Niitla: 2016-08-18: 20-44: GPS punkt</a></li>
-        </ol>
-        
+             <p>Kaardile koondatud taksonid: <em>Salvia verticillata L.</em></p>
+             <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
+             <div class="figure">
+             <img src="../images/Salvia_verticillata.png" />
+             
+             </div>
+             <p><a href="../posts/Salvia_nemorosa.html" id="prevLink">eelmine</a> | <a href="../posts/Sambucus_nigra.html" id="nextLink">järgmine</a></p>
+             <p>Kaart põhineb <strong>7</strong> kirjel, neist <span style="background-color:#FFFF00">vaatlusi</span> <strong>3</strong> ja <span style="background-color:#ADFF2F">eksemplare</span> <strong>4</strong>. Taksonit on leitud <strong>5</strong> ruudust.</p>
+             <div id="obs_table">
+             <p><label for="table_filter_input">Ruudu filter</label></p>
+             <p><input type="text" id="table_filter_input" oninput="filterTable()" placeholder="Filtreeri ruudu järgi"></p>
+             <table>
+             <thead>
+             <tr class="header">
+             <th align="center">Ruut</th>
+             <th align="left">Vaatleja(d)</th>
+             <th align="center">Vaatlusaeg</th>
+             <th align="center">Kirje tüüp</th>
+             <th align="center">Viide andmebaasikirjele</th>
+             </tr>
+             </thead>
+             <tbody>
+             <tr class="odd">
+             <td align="center">13-41</td>
+             <td align="left">Peedu Saar</td>
+             <td align="center">2015-08-11</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/867748">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">07-42</td>
+             <td align="left">Mari Metsoja, Jaak-Albert Metsoja</td>
+             <td align="center">2015-07-23</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1014942">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">11-26</td>
+             <td align="left">Hanna-Eliisa Luts, Tõnu Ploompuu</td>
+             <td align="center">2015-07-28</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1071486">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">13-41</td>
+             <td align="left">Peedu Saar</td>
+             <td align="center">2015-08-11</td>
+             <td align="center">eksemplar</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/specimen/view/980850">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">11-28</td>
+             <td align="left">Ott Luuk</td>
+             <td align="center">2013-06-19</td>
+             <td align="center">eksemplar</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/specimen/view/1006287">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">11-28</td>
+             <td align="left">Ott Luuk</td>
+             <td align="center">2013-06-19</td>
+             <td align="center">eksemplar</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/specimen/view/1006288">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">20-44</td>
+             <td align="left">Peedu Saar, Tarmo Niitla</td>
+             <td align="center">2016-08-18</td>
+             <td align="center">eksemplar</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/specimen/view/1073899">vaata PlutoFis</a></td>
+             </tr>
+             </tbody>
+             </table>
+             </div>        
     </div>
 </div>
 </body>

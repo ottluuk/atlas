@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Eesti taimede uue levikuatlase tööversioon - Malva alcea subsp. alcea</title>
 <link rel="stylesheet" type="text/css" href="../css/default.css" />
+<script type="text/javascript" src="https://ottluuk.github.io/atlas/js/mapdetails.js" ></script>
 </head>
 <body>
 <div id="container">        
@@ -25,31 +26,109 @@
     <div id="content">
         <h1>Malva alcea subsp. alcea</h1>
         <div class="info">
-            Uuendatud: 2016-12-01
+            Uuendatud: 2016-12-07
         </div>
-
-        <p>Kaardile koondatud taksonid: <em>Malva alcea subsp. alcea L.</em></p>
-        <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
-        <div class="figure">
-        <img src="../images/Malva_alcea_subsp_alcea.png" />
-        
-        </div>
-        <p><a href="../posts/Malus_sylvestris.html">eelmine</a> | <a href="../posts/Malva_moschata.html">järgmine</a></p>
-        <p>Kaart põhineb <em>10</em> kirjel.</p>
-        <p>Viited andmebaasikirjetele</p>
-        <ol style="list-style-type: decimal">
-        <li><a href="https://plutof.ut.ee/#/observation/view/861637">Malle Leht: 2015-07-28: : ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/862969">Malle Leht: 2015-07-18: 19-40: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/989756">Kirsi Loide, Marje Loide: 2015-07-27: 17-42: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1009731">Karin Kikas, Elle Rajandu: 2015-06-05: 08-39: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1029092">Eerik Leibak, Jaanus Paal, Uudo Timm: 2015-07-08: 06-42: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1104594">Tõnu Ploompuu: 2015-05-02: 10-21: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1105132">Tõnu Ploompuu: 2015-08-21: 10-21: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1168674">Vivika Väli, Ülo Väli: 2015-07-26: 21-42: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1240348">Toomas Kukk, Meeli Mesipuu: 2016-08-12: 17-16: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1348484">Jaak-Albert Metsoja, Mari Metsoja: 2016-07-08: 08-24: ala</a></li>
-        </ol>
-        
+             <p>Kaardile koondatud taksonid: <em>Malva alcea subsp. alcea L.</em></p>
+             <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
+             <div class="figure">
+             <img src="../images/Malva_alcea_subsp_alcea.png" />
+             
+             </div>
+             <p><a href="../posts/Malus_sylvestris.html" id="prevLink">eelmine</a> | <a href="../posts/Malva_moschata.html" id="nextLink">järgmine</a></p>
+             <p>Kaart põhineb <strong>10</strong> <span style="background-color:#FFFF00">vaatlusel</span>. Taime on leitud <strong>8</strong> ruudust.</p>
+             <div id="obs_table">
+             <p><label for="table_filter_input">Ruudu filter</label></p>
+             <p><input type="text" id="table_filter_input" oninput="filterTable()" placeholder="Filtreeri ruudu järgi"></p>
+             <table style="width:49%;">
+             <colgroup>
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             </colgroup>
+             <thead>
+             <tr class="header">
+             <th align="center">Ruut</th>
+             <th align="left">Vaatleja(d)</th>
+             <th align="center">Vaatlusaeg</th>
+             <th align="center">Kirje tüüp</th>
+             <th align="center">Viide andmebaasikirjele</th>
+             </tr>
+             </thead>
+             <tbody>
+             <tr class="odd">
+             <td align="center">Malle Leht</td>
+             <td align="left">2015-07-28</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/861637">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">19-40</td>
+             <td align="left">Malle Leht</td>
+             <td align="center">2015-07-18</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/862969">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">17-42</td>
+             <td align="left">Kirsi Loide, Marje Loide</td>
+             <td align="center">2015-07-27</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/989756">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">08-39</td>
+             <td align="left">Karin Kikas, Elle Rajandu</td>
+             <td align="center">2015-06-05</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1009731">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">06-42</td>
+             <td align="left">Eerik Leibak, Jaanus Paal, Uudo Timm</td>
+             <td align="center">2015-07-08</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1029092">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">10-21</td>
+             <td align="left">Tõnu Ploompuu</td>
+             <td align="center">2015-05-02</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1104594">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">10-21</td>
+             <td align="left">Tõnu Ploompuu</td>
+             <td align="center">2015-08-21</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1105132">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">21-42</td>
+             <td align="left">Vivika Väli, Ülo Väli</td>
+             <td align="center">2015-07-26</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1168674">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">17-16</td>
+             <td align="left">Toomas Kukk, Meeli Mesipuu</td>
+             <td align="center">2016-08-12</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1240348">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">08-24</td>
+             <td align="left">Jaak-Albert Metsoja, Mari Metsoja</td>
+             <td align="center">2016-07-08</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1348484">vaata PlutoFis</a></td>
+             </tr>
+             </tbody>
+             </table>
+             </div>        
     </div>
 </div>
 </body>

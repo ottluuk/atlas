@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Eesti taimede uue levikuatlase tööversioon - Salix daphnoides</title>
 <link rel="stylesheet" type="text/css" href="../css/default.css" />
+<script type="text/javascript" src="https://ottluuk.github.io/atlas/js/mapdetails.js" ></script>
 </head>
 <body>
 <div id="container">        
@@ -25,32 +26,117 @@
     <div id="content">
         <h1>Salix daphnoides</h1>
         <div class="info">
-            Uuendatud: 2016-12-02
+            Uuendatud: 2016-12-07
         </div>
-
-        <p>Kaardile koondatud taksonid: <em>Salix daphnoides Vill.</em></p>
-        <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
-        <div class="figure">
-        <img src="../images/Salix_daphnoides.png" />
-        
-        </div>
-        <p><a href="../posts/Salix_cinerea.html">eelmine</a> | <a href="../posts/Salix_dasyclados.html">järgmine</a></p>
-        <p>Kaart põhineb <em>11</em> vaatlusel. Taksonit on leitud <em>10</em> ruudust.</p>
-        <p>Viited andmebaasikirjetele</p>
-        <ol style="list-style-type: decimal">
-        <li><a href="https://plutof.ut.ee/#/observation/view/860552">Toomas Kukk, Eerik Leibak: 2015-07-29: 16-44: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/875500">Tiit Hallikma, Toomas Kukk: 2015-07-22: 05-47: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/917668">Thea Kull, Eerik Leibak: 2015-07-23: 08-46: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/931684">Thea Kull, Eerik Leibak: 2015-07-05: 17-43: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/933937">Meeli Mesipuu: 2015-07-18: 16-26: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1052560">Mari Reitalu, Tõnu Ploompuu, Ott Luuk, Peedu Saar: 2014-06-01: 03-30: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1094250">Kadi-Liis Kesler, Tõnu Ploompuu: 2015-07-14: 09-21: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1155778">Silvia Pihu: 2015-07-03: 22-19: GPS punkt</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1232194">Toomas Kukk, Sander Laherand: 2016-08-29: 05-29: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1246171">Sirje Azarov, Indrek Tammekänd: 2016-07-18: 21-26: ala</a></li>
-        <li><a href="https://plutof.ut.ee/#/observation/view/1287848">Sander Laherand, Toomas Kukk: 2016-09-29: 05-29: GPS punkt</a></li>
-        </ol>
-        
+             <p>Kaardile koondatud taksonid: <em>Salix daphnoides Vill.</em></p>
+             <p><a href="../archive.html">Tagasi liigiloendi juurde</a></p>
+             <div class="figure">
+             <img src="../images/Salix_daphnoides.png" />
+             
+             </div>
+             <p><a href="../posts/Salix_cinerea.html" id="prevLink">eelmine</a> | <a href="../posts/Salix_dasyclados.html" id="nextLink">järgmine</a></p>
+             <p>Kaart põhineb <strong>11</strong> <span style="background-color:#FFFF00">vaatlusel</span>. Taime on leitud <strong>10</strong> ruudust.</p>
+             <div id="obs_table">
+             <p><label for="table_filter_input">Ruudu filter</label></p>
+             <p><input type="text" id="table_filter_input" oninput="filterTable()" placeholder="Filtreeri ruudu järgi"></p>
+             <table style="width:49%;">
+             <colgroup>
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             <col width="9%" />
+             </colgroup>
+             <thead>
+             <tr class="header">
+             <th align="center">Ruut</th>
+             <th align="left">Vaatleja(d)</th>
+             <th align="center">Vaatlusaeg</th>
+             <th align="center">Kirje tüüp</th>
+             <th align="center">Viide andmebaasikirjele</th>
+             </tr>
+             </thead>
+             <tbody>
+             <tr class="odd">
+             <td align="center">16-44</td>
+             <td align="left">Toomas Kukk, Eerik Leibak</td>
+             <td align="center">2015-07-29</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/860552">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">05-47</td>
+             <td align="left">Tiit Hallikma, Toomas Kukk</td>
+             <td align="center">2015-07-22</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/875500">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">08-46</td>
+             <td align="left">Thea Kull, Eerik Leibak</td>
+             <td align="center">2015-07-23</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/917668">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">17-43</td>
+             <td align="left">Thea Kull, Eerik Leibak</td>
+             <td align="center">2015-07-05</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/931684">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">16-26</td>
+             <td align="left">Meeli Mesipuu</td>
+             <td align="center">2015-07-18</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/933937">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">03-30</td>
+             <td align="left">Mari Reitalu, Tõnu Ploompuu, Ott Luuk, Peedu Saar</td>
+             <td align="center">2014-06-01</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1052560">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">09-21</td>
+             <td align="left">Kadi-Liis Kesler, Tõnu Ploompuu</td>
+             <td align="center">2015-07-14</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1094250">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">22-19</td>
+             <td align="left">Silvia Pihu</td>
+             <td align="center">2015-07-03</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1155778">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">05-29</td>
+             <td align="left">Toomas Kukk, Sander Laherand</td>
+             <td align="center">2016-08-29</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1232194">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="even">
+             <td align="center">21-26</td>
+             <td align="left">Sirje Azarov, Indrek Tammekänd</td>
+             <td align="center">2016-07-18</td>
+             <td align="center">ruut/ala</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1246171">vaata PlutoFis</a></td>
+             </tr>
+             <tr class="odd">
+             <td align="center">05-29</td>
+             <td align="left">Sander Laherand, Toomas Kukk</td>
+             <td align="center">2016-09-29</td>
+             <td align="center">punkt</td>
+             <td align="center"><a href="https://plutof.ut.ee/#/observation/view/1287848">vaata PlutoFis</a></td>
+             </tr>
+             </tbody>
+             </table>
+             </div>        
     </div>
 </div>
 </body>
