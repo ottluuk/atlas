@@ -164,6 +164,7 @@ div#speclist ul {
 div#speclist li a {
     display: block;
     margin: 0 0 0.2em 0;
+    padding: 0.4em;
 }
 
 div#speclist li:nth-child(odd) {
