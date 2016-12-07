@@ -1,9 +1,11 @@
 function leftArrowPressed() {
-   window.location.href = 'http://www.google.com';
+    var a;
+    a = document.getElementById('prevLink')
+    window.location.href = a.href;
 }
 
 function rightArrowPressed() {
-    window.location.href = 'http://www.neti.ee';
+    window.location.href = document.getElementById('nextLink').href;
 }
 
 document.onkeydown = function(evt) {
