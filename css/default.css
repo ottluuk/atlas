@@ -194,6 +194,10 @@ div#frontpage_text img {
     max-width: 700px;
 }
 
+div#static_text {
+    float: left;
+}
+
 p.caption {
     font-size: 14px;
     font-style: italic;
