@@ -200,6 +200,7 @@ div#frontpage_text {
 div#frontpage_text img {
     float: right;
     max-width: 700px;
+    padding: 30px;
 }
 
 div#static_text {
