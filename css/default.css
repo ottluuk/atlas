@@ -207,6 +207,11 @@ div#static_text {
     float: left;
 }
 
+div#static_text sup {
+    color: SteelBlue;
+}
+
+
 p.caption {
     font-size: 14px;
     font-style: italic;
