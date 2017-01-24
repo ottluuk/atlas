@@ -20,3 +20,5 @@ cabal.project.local
 *.swp
 *.md
 post_src
+
+.Rhistory
