@@ -244,6 +244,10 @@ td {
     padding: 5px;
 }
 
+div.footnotes hr {
+    display: none;
+}
+
 div.footnotes ol { 
     white-space: normal;
     line-height: 100%;
