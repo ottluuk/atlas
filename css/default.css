@@ -144,7 +144,7 @@ div#map_comments {
     width: 60%;
 }
 
-input#table_filter_input {
+input#table_filter_input #species_table_filter_input {
     width: 30%; /* Full-width */
     font-size: 16px; /* Increase font-size */
     padding: 12px 18px 12px 20px; /* Add some padding */
