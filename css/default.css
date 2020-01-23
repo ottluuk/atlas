@@ -152,13 +152,23 @@ input#table_filter_input {
     margin-bottom: 12px; /* Add some space below the input */
 }
 
-input#filterField #species_table_filter_input {
+input#filterField {
     width: 100%; /* Full-width */
     font-size: 16px; /* Increase font-size */
     padding: 12px 18px 12px 20px; /* Add some padding */
     border: 1px solid #A9A9A9; /* Add a grey border */
     margin-bottom: 12px; /* Add some space below the input */
 }
+
+input#species_table_filter_input {
+    width: 60%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 18px 12px 20px; /* Add some padding */
+    border: 1px solid #A9A9A9; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
+
+
 
 div#speclist ul {
     font-size: 14px;
@@ -244,11 +254,11 @@ td {
     padding: 5px;
 }
 
-div.footnotes hr {
+section.footnotes hr {
     display: none;
 }
 
-div.footnotes ol { 
+section.footnotes ol { 
     white-space: normal;
     line-height: 100%;
 }
