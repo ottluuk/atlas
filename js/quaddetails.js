@@ -10,7 +10,7 @@ function filterSpeciesTable() {
 
   // Loop through all table rows, and hide those who don't match the search query
   for (i = 0; i < tr.length; i++) {
-    a = tr[i].getElementsByTagName("a")[0];
+    a = tr[i].getElementsByTagName("td")[0];
     if (a) {
       if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
         tr[i].style.display = "";

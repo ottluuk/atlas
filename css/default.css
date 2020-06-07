@@ -1,10 +1,13 @@
 html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
     height: 100%;
 }
 
 body {
+    margin: 0;
     color: black;
-    font-size: 16px;
+    font-size: 80%;
     font-family: 'Noto Sans', Helvetica, Verdana, sans-serif;
     width: 99%;
     height: 100%;
@@ -13,13 +16,13 @@ body {
 div#container {
     height: 100%;
     max-width: 1000px;
-    margin: 12px auto 12px auto;
+    margin: 1em auto 1em auto;
 }
 
 div#header {
-    border-bottom: 2px solid black;
-    margin-bottom: 30px;
-    padding: 12px 0px 12px 0px;
+    border-bottom: 0.2em solid black;
+    margin-bottom: 2em;
+    padding: 1em 0em 1em 0em;
     font-family: 'Noto Serif', Georgia, serif;
 
 }
@@ -27,7 +30,7 @@ div#header {
 div#logo a {
     color: black;
     float: left;
-    font-size: 16px;
+    font-size: 1.3em;
     font-weight: bold;
     text-decoration: none;
 }
@@ -35,6 +38,15 @@ div#logo a {
 div#header #navigation {
     text-align: right;
 }
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
 
 /* unvisited link */
 a:link {
@@ -65,9 +77,9 @@ a:active {
 div#header #navigation a {
     width: 100%;
     color: black;
-    font-size: 18px;
+    font-size: 1.4em;
     font-weight: bold;
-    margin-left: 12px;
+    margin-left: 1em;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -78,8 +90,9 @@ em {
 
 h1 {
     font-family: 'Noto Serif', Georgia, serif;
-    font-size: 24px;
+    font-size: 1.8em;
     color: SteelBlue;
+    margin: 0.67em 0;
 }
 /*
 h1 em {
@@ -89,7 +102,7 @@ h1 em {
 
 h2 {
     font-family: 'Noto Serif', Georgia, serif;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 
@@ -104,28 +117,32 @@ img {
 
 div.info {
     color: #555;
-    font-size: 14px;
+    font-size: 1em;
     font-style: italic;
     float: right;
-    margin-left: 30px;
+    margin-left: 2em;
 }
 
-div.figure {
+figure {
     float: right;
+}
+
+figcaption {
+    float: left;
 }
 
 div#prevNext {
     float: right;
-    width: 800px;
+    width: 50em;
     text-align: center;
     color: DarkGreen;
 }
 
 div#content {
     color: black;
-    font-size: 16px;
+    font-size: 1.3em;
     text-align: justify;
-    margin-bottom: 30px;
+    margin-bottom: 2em;
 }
 
 ol {
@@ -146,38 +163,38 @@ div#map_comments {
 
 input#table_filter_input {
     width: 30%; /* Full-width */
-    font-size: 16px; /* Increase font-size */
-    padding: 12px 18px 12px 20px; /* Add some padding */
-    border: 1px solid #A9A9A9; /* Add a grey border */
-    margin-bottom: 12px; /* Add some space below the input */
+    font-size: 1.2em; /* Increase font-size */
+    padding: 1em 1.5em 1em 1.6em; /* Add some padding */
+    border: 0.1em solid #A9A9A9; /* Add a grey border */
+    margin-bottom: 1em; /* Add some space below the input */
 }
 
 input#filterField {
     width: 100%; /* Full-width */
-    font-size: 16px; /* Increase font-size */
-    padding: 12px 18px 12px 20px; /* Add some padding */
-    border: 1px solid #A9A9A9; /* Add a grey border */
-    margin-bottom: 12px; /* Add some space below the input */
+    font-size: 1.2em; /* Increase font-size */
+    padding: 1em 1.5em 1em 1.6em; /* Add some padding */
+    border: 0.1em solid #A9A9A9; /* Add a grey border */
+    margin-bottom: 1em; /* Add some space below the input */
 }
 
 input#species_table_filter_input {
     width: 60%; /* Full-width */
-    font-size: 16px; /* Increase font-size */
-    padding: 12px 18px 12px 20px; /* Add some padding */
-    border: 1px solid #A9A9A9; /* Add a grey border */
-    margin-bottom: 12px; /* Add some space below the input */
+    font-size: 1.2em; /* Increase font-size */
+    padding: 1em 1.5em 1em 1.6em; /* Add some padding */
+    border: 0.1em solid #A9A9A9; /* Add a grey border */
+    margin-bottom: 1em; /* Add some space below the input */
 }
 
 
 
 div#speclist ul {
-    font-size: 14px;
+    font-size: 1.15em;
     text-align: left;
     list-style-type: none;
-    border: 1px solid #A9A9A9;
-    padding: 12px 18px 12px 20px; /* same padding as filter field */
+    border: 0.1em solid #A9A9A9;
+    padding: 1em 1.5em 1em 1.6em; /* same padding as filter field */
     width: 100%;
-    height: 600px;
+    height: 40em;
     overflow-y: auto;
 }
 
@@ -203,14 +220,14 @@ div#idx_content {
 
 div#frontpage_text {
     float: left;
-    font-size: 16px;
+    font-size: 1.2em;
     text-align: left;
 }
 
 div#frontpage_text img {
     float: right;
     max-width: 700px;
-    padding: 30px;
+    padding: 2em;
 }
 
 div#static_text {
@@ -223,21 +240,21 @@ div#static_text sup {
 
 
 p.caption {
-    font-size: 14px;
+    font-size: 1.15em;
     font-style: italic;
     text-align: center;
 }
 
 div#obs_table {
     width: 100%;
-    height: 400px;
+    height: 30em;
     overflow: auto;
-    font-size: 14px;
+    font-size: 0.8em;
 }
 
 th {
     background-color: #A9A9A9;
-    padding: 20px;
+    padding: 1.5em;
 }
 
 tr.odd {
@@ -251,7 +268,7 @@ tr.even {
 
 td {
     white-space: pre;
-    padding: 5px;
+    padding: 0.5em;
 }
 
 section.footnotes hr {

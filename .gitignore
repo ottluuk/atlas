@@ -22,3 +22,5 @@ cabal.project.local
 post_src
 
 .Rhistory
+*.swo
+*.swn
