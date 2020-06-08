@@ -127,6 +127,10 @@ figure {
     float: right;
 }
 
+div.figure {
+    float: right;
+}       
+
 figcaption {
     float: left;
 }
