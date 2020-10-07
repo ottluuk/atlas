@@ -18,6 +18,7 @@ cabal.sandbox.config
 .stack-work/
 cabal.project.local
 *.swp
+*.swm
 *.md
 post_src
 
