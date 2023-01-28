@@ -21,7 +21,7 @@ cabal.project.local
 *.swm
 *.md
 post_src
-
 .Rhistory
 *.swo
 *.swn
+**/.DS_Store
