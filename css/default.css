@@ -146,6 +146,7 @@ div#prevNext {
 }
 
 div#content {
+    width: 100%;
     color: black;
     font-size: 1.3em;
     text-align: justify;
@@ -160,7 +161,7 @@ ol {
 
 div#speclist {
     float: left;
-    width: 30%;
+    width: 35%;
 }
 
 div#map_comments {
@@ -177,7 +178,8 @@ input#table_filter_input {
 }
 
 input#filterField {
-    width: 100%; /* Full-width */
+    box-sizing:border-box;
+    width: 100%;
     font-size: 1.2em; /* Increase font-size */
     padding: 1em 1.5em 1em 1.6em; /* Add some padding */
     border: 0.1em solid #A9A9A9; /* Add a grey border */
@@ -185,7 +187,7 @@ input#filterField {
 }
 
 input#species_table_filter_input {
-    width: 60%; /* Full-width */
+    width: 60%;
     font-size: 1.2em; /* Increase font-size */
     padding: 1em 1.5em 1em 1.6em; /* Add some padding */
     border: 0.1em solid #A9A9A9; /* Add a grey border */
@@ -195,6 +197,7 @@ input#species_table_filter_input {
 
 
 div#speclist ul {
+    box-sizing:border-box;
     font-size: 1.15em;
     text-align: left;
     list-style-type: none;
